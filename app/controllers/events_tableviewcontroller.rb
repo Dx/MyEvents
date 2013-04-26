@@ -35,7 +35,6 @@ class EventsTableViewController < UITableViewController
           next if item[0] != 'rows'
           
           item[1].each do |item1|
-              p item1["doc"]
               @events << Event.new(item1["doc"])
               self.view.reloadData
           end
@@ -54,7 +53,25 @@ class EventsTableViewController < UITableViewController
 
   def tableView(tableView, cellForRowAtIndexPath:indexPath)
     event = @events[indexPath.row]
-    p indexPath.row.to_s + ' row'
     EventCell.cellForEvent(event, inTableView:tableView)
+  end
+
+  def tableView(tableView, didSelectRowAtIndexPath:indexPath)
+    tableView.deselectRowAtIndexPath(indexPath, animated: true)
+
+    event = @events[indexPath.row]
+    if event.sub_events.any?
+      p 'any'
+      sub_event_controller = SubEventsTableViewController.alloc.init
+      sub_event_controller.setEvent(event)
+      self.navigationController.pushViewController(sub_event_controller, animated: true)    
+    else
+      p 'not any'
+      detail_controller = DetailViewController.alloc.init
+      detail_controller.setEvent(event)
+      self.navigationController.pushViewController(detail_controller, animated: true)   
+      
+    end
+
   end
 end

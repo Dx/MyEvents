@@ -1,8 +1,10 @@
 class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
-    @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
+    @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)    
 
-    @window.rootViewController = EventsTableViewController.alloc.init
+    controller = EventsTableViewController.alloc.init
+
+    @window.rootViewController = UINavigationController.alloc.initWithRootViewController(controller)
     # @window.rootViewController = RootController.alloc.init
     
     # #Splash Screen
