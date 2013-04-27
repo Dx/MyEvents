@@ -2,7 +2,7 @@ class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
     @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)    
 
-    controller = EventsTableViewController.alloc.init
+    controller = MenuController.alloc.init
 
     @window.rootViewController = UINavigationController.alloc.initWithRootViewController(controller)
     # @window.rootViewController = RootController.alloc.init
@@ -21,8 +21,6 @@ class AppDelegate
     #   image_view = nil
     #   UIApplication.sharedApplication.setStatusBarHidden(false, animated:false)    
     # end)
-    
-
     
     true
   end

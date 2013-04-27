@@ -1,5 +1,5 @@
 class Event
-  attr_reader :event_name, :initial_date, :final_date, :artist, :event_type, :sub_events
+  attr_reader :event_name, :initial_date, :final_date, :artist, :event_type, :sub_events, :latitude, :longitude, :place
   # , :event_image_url
   # attr_accessor :event_image
 
@@ -11,6 +11,9 @@ class Event
     @final_date = dict['FinalDate']
     @artist = dict['Artist']
     @event_type = dict['EventType']
+    @latitude = dict['Latitude']
+    @longitude = dict['Longitude']
+    @place = dict['Place']
 
     if (dict.include? 'SubEvents')
       dict['SubEvents'].each do |item|
