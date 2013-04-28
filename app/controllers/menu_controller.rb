@@ -1,11 +1,20 @@
 class MenuController < UIViewController
 
-  def viewDidLoad()
-    initializeUI()
+  def viewDidLoad
+    initializeUI
   end
 
-  def initializeUI()
+  def initializeUI
     self.view.backgroundColor = UIColor.lightGrayColor
+
+    @user_label = UILabel.new
+    @user_label.font = UIFont.systemFontOfSize(15)
+    @user_label.text = @user_name
+    @user_label.textAlignment = UITextAlignmentCenter 
+    @user_label.textColor = UIColor.blackColor
+    @user_label.backgroundColor = UIColor.clearColor
+    @user_label.frame = [[20, 10], [150, 30]]
+    self.view.addSubview(@user_label)
 
     @misEventosButton = UIButton.buttonWithType(UIButtonTypeRoundedRect)
     @misEventosButton.setTitle("Mis eventos", forState: UIControlStateNormal);
@@ -30,6 +39,10 @@ class MenuController < UIViewController
     @configuracionButton.frame = [[80, 210],[160, 50]]
     @configuracionButton.addTarget(self, action: :clickMisEventos, forControlEvents: UIControlEventTouchUpInside)
     self.view.addSubview(@configuracionButton)
+  end
+
+  def setUserName(userName)
+    @user_name = userName
   end
 
   def clickMisEventos

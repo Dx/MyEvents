@@ -67,6 +67,19 @@ class DetailViewController < UIViewController
     @viewMapButton.frame = [[80, 260],[160, 50]]
     @viewMapButton.addTarget(self, action: :viewMap, forControlEvents: UIControlEventTouchUpInside)
     self.view.addSubview(@viewMapButton)
+
+    @switchButton = UISwitch.alloc.initWithFrame([[180, 20], [40, 20]])
+    @switchButton.addTarget(self,action:'switchIsChanged', forControlEvents:UIControlEventValueChanged)
+    # @switchButton.setOn(false, animated:false)
+    self.view.addSubview(@switchButton)
+  end
+
+  def switchIsChanged
+    if @switchButton.on?
+      #Agendar evento
+    else
+     #Desagendar evento
+    end
   end
 
   def viewMap

@@ -1,4 +1,4 @@
-describe "Application 'MyEvents'" do
+describe "Application 'FacebookApp'" do
   before do
     @app = UIApplication.sharedApplication
   end
