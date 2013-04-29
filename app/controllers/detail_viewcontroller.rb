@@ -93,11 +93,15 @@ class DetailViewController < UIViewController
       #Agendar evento
       url_string = "https://onessaweredisseseryounce:IiWpLORcxhNI6QmEsVCdeLU1@dequis.cloudant.com/events_users_schedule"
 
-      json_string = "{\"fb_user_name\":\"#{@fb_user_name}\", \"event_id\":\"#{@event.event_id}\", \"_id\":\"#{@fb_username}_#{@event.event_id}\"}"
+      json_string = "{\"fb_user_name\":\"#{@fb_user_name}\", \"event_id\":\"#{@event.event_id}\", \"_id\":\"#{@fb_user_name}_#{@event.event_id}\"}"
+      # json_string = {fb_user_name:"#{@fb_user_name}", event_id:"#{@event.event_id}", _id:"#{@fb_username}_#{@event.event_id}"}
 
       p "json_string #{json_string}"
 
-      BW::HTTP.post(url_string, payload: json_string) do |response|
+      BW::HTTP.post(url_string, {
+            :payload => json_string,
+            :headers => {'Content-Type' => 'application/json'}
+            }) do |response|      
         p response.to_s
       end
     else
