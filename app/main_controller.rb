@@ -82,7 +82,7 @@ class MainController < UIViewController
   def showUserInfo
     FBRequest.requestForMe.startWithCompletionHandler(lambda do |connection, user, error|
       if error.nil?
-        NSLog("#{user.inspect}")
+        p "#{user.inspect}"
         textLabel.textColor = UIColor.blackColor
         textLabel.text = "#{user[:name]}"
       end

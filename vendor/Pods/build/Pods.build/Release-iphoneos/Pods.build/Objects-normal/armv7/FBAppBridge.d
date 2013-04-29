@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBAppBridge.m \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBAppBridge.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBAppCall.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSession.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBDialogsData.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBAccessTokenData.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBAppLinkData.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBDialogs.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBShareDialogParams.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBDialogsParams.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBOpenGraphActionShareDialogParams.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBAppBridgeTypeToJSONConverter.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBBase64.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBUtility.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBFetchedAppSettings.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBCrypto.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBError.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSession+Internal.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSystemAccountStoreAdapter.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSessionInsightsState.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBAppCall+Internal.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBDialogsData+Internal.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSettings+Internal.h \
+  /Users/dequis1/Documents/Work/Palmera/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSettings.h

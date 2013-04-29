@@ -81,9 +81,14 @@ class LoginController < UIViewController
 
     FBRequest.requestForMe.startWithCompletionHandler(lambda do |connection, user, error|
       if error.nil?
+        NSLog("#{user.inspect}")
+        
         menu_controller = MenuController.alloc.init
         menu_controller.setUserName("#{user[:name]}")
         self.navigationController.pushViewController(menu_controller, animated:true)
+
+        textLabel.textColor = UIColor.blackColor
+        textLabel.text = "#{user[:name]}"
       end
     end)
   end
@@ -99,7 +104,7 @@ class LoginController < UIViewController
   def sessionStateChanged(notification)
     if FBSession.activeSession.open?
       showUserInfo
-      authButton.setTitle("Sign out", forState: UIControlStateNormal)
+      authButton.setTitle("Sign out from Facebook", forState: UIControlStateNormal)
     else
       resetTextLabel
       authButton.setTitle("Sign in with Facebook", forState: UIControlStateNormal)

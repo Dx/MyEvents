@@ -1,11 +1,14 @@
 class Event
-  attr_reader :event_name, :initial_date, :final_date, :artist, :event_type, :sub_events, :latitude, :longitude, :place
+  attr_reader :event_id, :event_name, :initial_date, :final_date, :artist, :event_type, :sub_events, :latitude, :longitude, :place
   # , :event_image_url
   # attr_accessor :event_image
 
   def initialize(dict)
 
     @sub_events = []
+
+    @event_id = dict['_id']
+
     @event_name = dict['EventName']
     @initial_date = dict['InitialDate']
     @final_date = dict['FinalDate']

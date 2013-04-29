@@ -10,45 +10,36 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>0032BD996AD540BAA0E6EAD6</key>
+		<key>00D663BA5DBA4C7493102931</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBTestSession.h</string>
+			<string>FBDialog.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBTestSession.h</string>
+			<string>Facebook-iOS-SDK/src/FBDialog.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>01C018878D0E491990A44D55</key>
+		<key>0257D69514C1475F82F8ED48</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBBase64.m</string>
+			<string>FBSessionManualTokenCachingStrategy.h</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBBase64.m</string>
+			<string>Facebook-iOS-SDK/src/FBSessionManualTokenCachingStrategy.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>01C9C95E467A4FC3A6C9B69D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>024B7333904E42C1AD9C4FA5</key>
+		<key>0272C50FCA7C4C85968830EC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>887CBBB8A5134F14874DFC09</string>
+			<string>99BBFA49ACD04664AC80BC6E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -59,63 +50,36 @@
 				</array>
 			</dict>
 		</dict>
-		<key>02B4C63A6107421E88562D03</key>
-		<dict>
-			<key>fileRef</key>
-			<string>387DB1095C4F4F29A1B6A6FC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>03173AEC03494E5095F5B005</key>
+		<key>02F9E51CE10B4F9EAE60F38E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBNativeDialogs.m</string>
+			<string>FBShareDialogParams.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBNativeDialogs.m</string>
+			<string>Facebook-iOS-SDK/src/FBShareDialogParams.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>034C3F44D6B645DBB0DB086D</key>
+		<key>03ACD5FD60AE45D4BB567122</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBDataDiskCache.h</string>
+			<string>FBFriendPickerCacheDescriptor.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDataDiskCache.h</string>
+			<string>Facebook-iOS-SDK/src/FBFriendPickerCacheDescriptor.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>039142C41E984D29B647AA60</key>
+		<key>03F7191108344BD7902B3F57</key>
 		<dict>
 			<key>fileRef</key>
-			<string>329839345CC54F5B9A9B82B7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>03BA91FEEC3644C5AD477945</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphObjectTableCell.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphObjectTableCell.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>04D3601F52504303AEF1F603</key>
-		<dict>
-			<key>fileRef</key>
-			<string>411C9B54538B44A4ACC5424B</string>
+			<string>28B7511266DE4F76B6323AAF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -126,37 +90,10 @@
 				</array>
 			</dict>
 		</dict>
-		<key>06B7D6C0578F4671AB98CC52</key>
+		<key>042D51C6FC0842B6BF57171E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D26AD5B723B14FA3A0E6C2D1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>08FCD6651BE249E6B40B341E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03BA91FEEC3644C5AD477945</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0995093C4CED4A259989D2AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FacebookSDK.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FacebookSDK.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0ABCB56F6CFC4E7685644B94</key>
-		<dict>
-			<key>fileRef</key>
-			<string>85608721918F46D6B87A53D9</string>
+			<string>AAD92C1E6EAF4943B65B76DD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -167,10 +104,17 @@
 				</array>
 			</dict>
 		</dict>
-		<key>1008CCD5029546DCAB2BBB3D</key>
+		<key>04427EAB45F845E1B4C22E75</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C1DC83EAB071464CA3FF4C17</string>
+			<string>EE456F5A88BC44AD99985115</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0475CE036F1341119E71EBDC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1747C85A09ED456E8510EF6F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -181,10 +125,23 @@
 				</array>
 			</dict>
 		</dict>
-		<key>10F1557ABC3B4A49947393E9</key>
+		<key>04F04C129C9545ADBB02568A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBViewController.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBViewController.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>058850F07AAB4C74AA8BE314</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1E1F395D6AD74CCF8EFBA4CE</string>
+			<string>DBA1858C2AD64884B8F8F7BF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -195,43 +152,23 @@
 				</array>
 			</dict>
 		</dict>
-		<key>115489504A1148E1B58A2F2C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D679839978E4832BC9EE840</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>11CECE2B471441568153632C</key>
+		<key>05DD9DA8F4AC4FBCBAEA3ABA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBCacheDescriptor.m</string>
+			<string>FBDialogsData.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBCacheDescriptor.m</string>
+			<string>Facebook-iOS-SDK/src/FBDialogsData.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>121C329245EB4CFABE3BF70C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBOpenGraphObject.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBOpenGraphObject.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>14CDD2572AE7430CBD2A4D24</key>
+		<key>06FE505A7E2D4B5DB7588679</key>
 		<dict>
 			<key>fileRef</key>
-			<string>24AC5FF7E3454D9EB008B789</string>
+			<string>97B3C5384E5047D98F37EEC5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -242,469 +179,20 @@
 				</array>
 			</dict>
 		</dict>
-		<key>154D626D9D1B417C9543B0EC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAEB819BCE7249E7AC2E5DF3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>18AC7010F6034AD7A3857D74</key>
-		<dict>
-			<key>fileRef</key>
-			<string>121C329245EB4CFABE3BF70C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>18F07033029B429DA9C4FE5C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B67DA8B41E684C25910A3E70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1941FC4CD2D24490A99D499B</key>
+		<key>06FE600FC58C4158A7BF9655</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBFriendPickerViewController+Internal.h</string>
+			<string>FBLoginDialogParams.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFriendPickerViewController+Internal.h</string>
+			<string>Facebook-iOS-SDK/src/FBLoginDialogParams.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>1AACF237FBF0497B9F9B32AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSystemAccountStoreAdapter.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSystemAccountStoreAdapter.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1B5F035A6C644181A0B07F73</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>94320524869644389C0C26AB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4B5E15EDB8074F85BE5FEC4E</string>
-				<string>C265CC0588DD46FC85246012</string>
-				<string>24F224736A024E0B8BA27C03</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>34411B1BB6AA4D23A18EC449</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>1BF381C4184441EAA9BD808D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AAFEF5E7441A47A882909205</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1C00DF551FD845AF8DC847E0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBLoginDialogParams.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBLoginDialogParams.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1CF9FE2A2C14403E97016A55</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1C00DF551FD845AF8DC847E0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1D02B2B74F8344B4A6A03FA7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBOpenGraphActionShareDialogParams.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBOpenGraphActionShareDialogParams.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1E1F395D6AD74CCF8EFBA4CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphObject.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphObject.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1EA3454FE594441EB8BD0417</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphPlace.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphPlace.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>1FCE23C7196F4587A14205EC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>66E5111792384DC7BFE56C1B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>223F5CA9220243A4B6D9E493</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C0FAF6F8EA24A678864F24E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>22C6EBE59E4D44E9971E5F86</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBUtility.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBUtility.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2304972BA57448EF87B95307</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8A310707E5354AEAA3A1604C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>23372B4A384F4CAE867FBB57</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B6318EECC939470B855F7B2E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>233F5680465842C9B7832D25</key>
-		<dict>
-			<key>fileRef</key>
-			<string>398249FB422F4C828FC23CE6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>24AC5FF7E3454D9EB008B789</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBViewController+Internal.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBViewController+Internal.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>24F224736A024E0B8BA27C03</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>23372B4A384F4CAE867FBB57</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>265183A539914429B44C5BFE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DF0ABB20B03460C83EF8833</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>287E8DF0B669490D98805E99</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphObjectTableCell.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphObjectTableCell.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2A7F356E8B474DA58CD5ACA3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3ADA799C562C472789405281</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2B826D4BE5C342CB8DFB1719</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBTestSession.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBTestSession.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2BF2F6C92D2F4F0AAC3781DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6C9D446A694F4991BA82D955</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2BF3B473615541FD9DEE8EB5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBInsights.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBInsights.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2C0949B288FF4A708E1D1043</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBFrictionlessRequestSettings.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFrictionlessRequestSettings.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2D63D52A9DB243AEB1C50FA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>634D70A6728E4A1F8C0C4707</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2E1F1688349F421C87397D43</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphObjectPagingLoader.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphObjectPagingLoader.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>2E938C6C28474D7DB565C1F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBFriendPickerViewController.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFriendPickerViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>303D6386DBFD4ECB9F19BC95</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2E1F1688349F421C87397D43</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>31923C00E4EB44EF8E9CB6D4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B0BD2F32FF9A4FD1B5B1D63A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>31D4C263D3924EF397C3CBD8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8796C0E79D6846829AE71421</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3248B7D0E2244CC6966DFF34</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBRequestBody.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBRequestBody.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>329839345CC54F5B9A9B82B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBCacheIndex.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBCacheIndex.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>34066496B5F74DAC9276ED3E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSessionInsightsState.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSessionInsightsState.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>34411B1BB6AA4D23A18EC449</key>
+		<key>0866E6B580E045279D3C3253</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -719,23 +207,10 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>35337BCC88714A4A9428E7BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBWebDialogs.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBWebDialogs.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>36DF9DD6B6C247D186576691</key>
+		<key>0908CB66E6A74E49B6D12159</key>
 		<dict>
 			<key>fileRef</key>
-			<string>66B45BCCAFAD409694782472</string>
+			<string>E79B064D3DB449B5BFBAFE80</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -746,121 +221,11 @@
 				</array>
 			</dict>
 		</dict>
-		<key>376AF3FB222944AF87AE98B0</key>
+		<key>09CC3929FEAD4F11BEF931F8</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>34411B1BB6AA4D23A18EC449</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>376DEEAFAB3D49E4953A186E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D9864376E0F4ED48F2675F2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>387DB1095C4F4F29A1B6A6FC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Facebook.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/Facebook.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>398249FB422F4C828FC23CE6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBDialogsParams.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDialogsParams.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3AC420DBD8CE4CA88125730D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7269099B6C4C4152A1CB32B9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3ADA799C562C472789405281</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBAppLinkData.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAppLinkData.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3C62B752301741A79F4CC193</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6FE5C3C8DA634ACDA048C39C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3D465C718F204C8AA4116B96</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D02B2B74F8344B4A6A03FA7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3DA22FA3BB3D48AF88A6AA23</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B60764519712481881255AFA</string>
-				<string>990F209861EB4F5A874AB819</string>
-				<string>7A22623E94F44BB0ACDF8641</string>
+				<string>2D826ED25EDF4F8894ED644F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -869,60 +234,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3F1F675D135A4EA3BE76F600</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBFriendPickerCacheDescriptor.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFriendPickerCacheDescriptor.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>411C9B54538B44A4ACC5424B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBPlacePickerViewController+Internal.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBPlacePickerViewController+Internal.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>416FB193250F4D4A8B6704A6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8537C20BECB84EE983D7DF12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>42E4B1F9CC054D1CBE2C12CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphObjectTableDataSource.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphObjectTableDataSource.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>445F046F722046EABE698445</key>
+		<key>0B09B867F610416F8C2A1360</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -935,10 +247,10 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>446823F1512E4A5DA8C8D2DB</key>
+		<key>0C1F7AF968E24F639A2EB21C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2BF3B473615541FD9DEE8EB5</string>
+			<string>0B09B867F610416F8C2A1360</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -949,10 +261,24 @@
 				</array>
 			</dict>
 		</dict>
-		<key>449996DAC52A4E2880DD0D97</key>
+		<key>0C32B209DE2C46B0B2331D37</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D48A53DBFE2D410CA448B8AF</string>
+			<string>63E8D7B346AF487AA36D234C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0E1B2D6946984645B935C2EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>699944A5A0AE4505B98C9872</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1000206305794643A0FC99BE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EAC1807212B84276B2B5A352</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -963,972 +289,74 @@
 				</array>
 			</dict>
 		</dict>
-		<key>44BA5697483D470C9C697AA9</key>
+		<key>10AA7D18583645F49FA12B99</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>NSError+FBError.m</string>
+			<string>FBSystemAccountStoreAdapter.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/NSError+FBError.m</string>
+			<string>Facebook-iOS-SDK/src/FBSystemAccountStoreAdapter.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>45C64509CAAF4A84B36B3625</key>
+		<key>11F4341EE23B4E93931F6B8D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>651799EEA13340B3B1B79AED</string>
+			<string>8806FCF633B4443EAFC608B5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>47C9449755AF431CA2BED44E</key>
+		<key>12B3C0000CDE4ED6BF4E6F17</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBConnect.h</string>
+			<string>FBSessionTokenCachingStrategy.h</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBConnect.h</string>
+			<string>Facebook-iOS-SDK/src/FBSessionTokenCachingStrategy.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>4961032CCE3747ECA4210C74</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBRequest.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBRequest.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4A36972126D24CD1BB5925C3</key>
+		<key>12D3F4AF136C4A8C96966B1B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F8A468567DE34AA291C569B5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4A896B64D4E84D9B9955018F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBDialogsData.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDialogsData.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4B5E15EDB8074F85BE5FEC4E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>02B4C63A6107421E88562D03</string>
-				<string>70F387D54C7E4DD1B035BA23</string>
-				<string>E9D68568833B4DFD8AF39B04</string>
-				<string>D72723971E924EAF8FA678B3</string>
-				<string>FD321CC7093F415196FE1B70</string>
-				<string>5A9F005ED44147ADB1207CB9</string>
-				<string>D6A83E8875BD4C979B8B2B47</string>
-				<string>C338D04C206B4BFDA11A8C81</string>
-				<string>039142C41E984D29B647AA60</string>
-				<string>2D63D52A9DB243AEB1C50FA7</string>
-				<string>7EB2CF548868484AA6CF7DD6</string>
-				<string>9B1BC166F5D0485CAAA827B0</string>
-				<string>8B68A8D028314A7EB0F8F925</string>
-				<string>575406C2EA8C4235B3E708E4</string>
-				<string>E95F73E51CD240C7AFCF25F7</string>
-				<string>AC81F4AF434F43F59FAF5155</string>
-				<string>E8543905B1CF4D299312E083</string>
-				<string>A82A28B8D9EB409393EAED4B</string>
-				<string>79941FEEF34F4AA385A07E1A</string>
-				<string>F781129CC0F84D53AD2FACA2</string>
-				<string>670C14BF4D5842BE88347869</string>
-				<string>F131EB4A425E44C392FE6017</string>
-				<string>92A95EBCEA2D4BD2BB0FE123</string>
-				<string>BBC87DF3D87C4D91BFF7C489</string>
-				<string>08FCD6651BE249E6B40B341E</string>
-				<string>06B7D6C0578F4671AB98CC52</string>
-				<string>EF8F2431D6A5401F8BC0E0D6</string>
-				<string>D5EC1E2759F54950A8734460</string>
-				<string>115489504A1148E1B58A2F2C</string>
-				<string>C2305A356F9D4ED79DEF216C</string>
-				<string>E9E2C03D392F4F968F9A74FC</string>
-				<string>E62F3A7391B04D0CA9E27FE8</string>
-				<string>AAEF3652B0C042E5A110E485</string>
-				<string>892D4319737F46189A514ECA</string>
-				<string>A25520327DA24A7E9204AF6A</string>
-				<string>1BF381C4184441EAA9BD808D</string>
-				<string>831F4730BCD1434D8F659D03</string>
-				<string>5E43E4E7594A466AB283C1D7</string>
-				<string>C7482017F67B4C468C720898</string>
-				<string>8B4AC22E3FD145688C36AE4F</string>
-				<string>E8727834976C43EF8B8638E3</string>
-				<string>8CBADB1D021645C3A6B15486</string>
-				<string>4D206E2C80EA43D4B0985961</string>
-				<string>8EB6F8AC813241C1BA435FD4</string>
-				<string>45C64509CAAF4A84B36B3625</string>
-				<string>31D4C263D3924EF397C3CBD8</string>
-				<string>9AE2B06C0769424AA8CCF7EA</string>
-				<string>C219F0178A3E432F808AAB93</string>
-				<string>265183A539914429B44C5BFE</string>
-				<string>8AAC98B507184532BEFDCD96</string>
-				<string>541910EB4F5745BDB3186B06</string>
-				<string>9085635E73B4400F8AFE7A3A</string>
-				<string>9ED15D05030B42778812AD1F</string>
-				<string>A6A37BB682174E72AC5E61B3</string>
-				<string>CD35D421A6E1444D8BE78616</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4B631C9B58BD497B875167DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD997916A6DD4277AFE415E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4D206E2C80EA43D4B0985961</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DA4CDC3044854002A03F3573</string>
+			<string>BC54133532BF4711867BD738</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>4DED5469ECF041FB95CAC87C</key>
+		<key>137614B4823F49A4A8E587AB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8F101181C9944EB9839D4F25</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4DF0ABB20B03460C83EF8833</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBURLConnection.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBURLConnection.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>518587247D13483199C62564</key>
-		<dict>
-			<key>fileRef</key>
-			<string>849A5296AD62458A9CA727F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>525FE073FCE341BEA397509F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>53BEFEDCF6924B1DBFB63B76</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBViewController.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>541910EB4F5745BDB3186B06</key>
-		<dict>
-			<key>fileRef</key>
-			<string>22C6EBE59E4D44E9971E5F86</string>
+			<string>5D7C157550F44003BFA683F7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>5456755034304F8AB328B39E</key>
+		<key>1449B103EA0E4F159393C68C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>976E662F0D944E469F772552</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>575406C2EA8C4235B3E708E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A896B64D4E84D9B9955018F</string>
+			<string>29AF85A6F1184DBD8E9AD0B5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>578E30F47A534C35A67278D7</key>
+		<key>15D8D0664C334B948DFE7283</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBPlacePickerCacheDescriptor.h</string>
+			<string>FBAppCall.h</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBPlacePickerCacheDescriptor.h</string>
+			<string>Facebook-iOS-SDK/src/FBAppCall.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>57A30B85F52F4C54893794F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBDialog.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDialog.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>57C782E404684144BE291CED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBUserSettingsViewController.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBUserSettingsViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5A9F005ED44147ADB1207CB9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>77A8FD1BEB6147699E11F6EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5C0FAF6F8EA24A678864F24E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBAppBridgeTypeToJSONConverter.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAppBridgeTypeToJSONConverter.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5C54904DEB914F359346F5D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E60C698FAF4F4E758BBFF6D9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5CD42000DD74419AA4E0D512</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSessionInsightsState.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSessionInsightsState.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5D648167BC5F4C1598303F10</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBLoginDialog.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBLoginDialog.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5D9864376E0F4ED48F2675F2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBTestSession+Internal.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBTestSession+Internal.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5DC8B0876C19433AAAC548D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F8EBA40F7AF14200A44DB4F6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5E43E4E7594A466AB283C1D7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>895BBAE667644E4CB93687A6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E7047454BB142BF9E62391D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSessionTokenCachingStrategy.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSessionTokenCachingStrategy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>5EA8D8C209BA4EC1A6443FB4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBFrictionlessRequestSettings.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFrictionlessRequestSettings.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>62942DDDBA64437DB18D4E0C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>034C3F44D6B645DBB0DB086D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>634D70A6728E4A1F8C0C4707</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBCrypto.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBCrypto.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>635337B38BCE486AB5252E05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C1FAB74FB624426F90781B19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>63C8AFB0555D4196BC08D912</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBLoginDialog.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBLoginDialog.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>651799EEA13340B3B1B79AED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSettings.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSettings.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>66B45BCCAFAD409694782472</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBDialogsData.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDialogsData.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>66E5111792384DC7BFE56C1B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBCacheDescriptor.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBCacheDescriptor.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>670C14BF4D5842BE88347869</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B10C5BB0DA654CF0A3E12CBD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>67C9F21573F740DBBD25CF35</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CC7F1A1DC2374FA186A7E8D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6824E502F4BD44CD89C7DFCC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AD53D88E761F4A12A1754FDC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>684F010C91384727A63F07CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBAppBridge.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAppBridge.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6B7DE96C315E488697D7A89B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6FE5C3C8DA634ACDA048C39C</string>
-				<string>0995093C4CED4A259989D2AB</string>
-				<string>AAB1F4CBE85943BDA324B79E</string>
-				<string>445F046F722046EABE698445</string>
-				<string>684F010C91384727A63F07CC</string>
-				<string>5C0FAF6F8EA24A678864F24E</string>
-				<string>C1FAB74FB624426F90781B19</string>
-				<string>E14B75F3D06D4107A6A4EAE9</string>
-				<string>D556F9A6524B4775A75EAE00</string>
-				<string>3ADA799C562C472789405281</string>
-				<string>F8A468567DE34AA291C569B5</string>
-				<string>66E5111792384DC7BFE56C1B</string>
-				<string>D4E2BDEE1559465AAFF44F78</string>
-				<string>47C9449755AF431CA2BED44E</string>
-				<string>AD53D88E761F4A12A1754FDC</string>
-				<string>034C3F44D6B645DBB0DB086D</string>
-				<string>6C9D446A694F4991BA82D955</string>
-				<string>8A310707E5354AEAA3A1604C</string>
-				<string>8F101181C9944EB9839D4F25</string>
-				<string>FAEB819BCE7249E7AC2E5DF3</string>
-				<string>66B45BCCAFAD409694782472</string>
-				<string>E022DB6B31634320AB944DF6</string>
-				<string>398249FB422F4C828FC23CE6</string>
-				<string>795F60F00B4748D484DC58C5</string>
-				<string>9C7C35657B954698BBC2958E</string>
-				<string>6DFF88C5C5DA4F7789BD827D</string>
-				<string>F02C6A2001324C18BF8905C4</string>
-				<string>849A5296AD62458A9CA727F8</string>
-				<string>748B2FFEEC7D4B1A94F642D0</string>
-				<string>2C0949B288FF4A708E1D1043</string>
-				<string>3F1F675D135A4EA3BE76F600</string>
-				<string>1941FC4CD2D24490A99D499B</string>
-				<string>BCA8C99B0D0A4C05B0059BEE</string>
-				<string>B0BD2F32FF9A4FD1B5B1D63A</string>
-				<string>1E1F395D6AD74CCF8EFBA4CE</string>
-				<string>2E1F1688349F421C87397D43</string>
-				<string>287E8DF0B669490D98805E99</string>
-				<string>42E4B1F9CC054D1CBE2C12CF</string>
-				<string>A527C161FF8345E8865715CA</string>
-				<string>1EA3454FE594441EB8BD0417</string>
-				<string>9B0988CEE4AE44038A5DE715</string>
-				<string>EA4705285F2E4CFBA74A1EAF</string>
-				<string>2BF3B473615541FD9DEE8EB5</string>
-				<string>AFB17BB1B7FC425796061E16</string>
-				<string>5D648167BC5F4C1598303F10</string>
-				<string>1C00DF551FD845AF8DC847E0</string>
-				<string>70BD5E238FFD498EBF610FE3</string>
-				<string>DD997916A6DD4277AFE415E7</string>
-				<string>CC7F1A1DC2374FA186A7E8D8</string>
-				<string>1D02B2B74F8344B4A6A03FA7</string>
-				<string>121C329245EB4CFABE3BF70C</string>
-				<string>578E30F47A534C35A67278D7</string>
-				<string>411C9B54538B44A4ACC5424B</string>
-				<string>F8EBA40F7AF14200A44DB4F6</string>
-				<string>7269099B6C4C4152A1CB32B9</string>
-				<string>4961032CCE3747ECA4210C74</string>
-				<string>E60C698FAF4F4E758BBFF6D9</string>
-				<string>D48A53DBFE2D410CA448B8AF</string>
-				<string>D6109C47E577422A87FBEF28</string>
-				<string>85608721918F46D6B87A53D9</string>
-				<string>8E5AC13F898745ABAD97F59E</string>
-				<string>C1DC83EAB071464CA3FF4C17</string>
-				<string>AD5FD80156954BF59C91CC8F</string>
-				<string>5CD42000DD74419AA4E0D512</string>
-				<string>8C9A9D7980664781BC7D5C4F</string>
-				<string>B67DA8B41E684C25910A3E70</string>
-				<string>A239D95F97B245D397F59A9D</string>
-				<string>F8B2414B912A415C982F8D82</string>
-				<string>BFF486E67EC1452BB8EB9C67</string>
-				<string>A6EE512D9C9149208299A96D</string>
-				<string>5D9864376E0F4ED48F2675F2</string>
-				<string>0032BD996AD540BAA0E6EAD6</string>
-				<string>976E662F0D944E469F772552</string>
-				<string>57C782E404684144BE291CED</string>
-				<string>C3ACF75E1A0940CA83AB5441</string>
-				<string>24AC5FF7E3454D9EB008B789</string>
-				<string>53BEFEDCF6924B1DBFB63B76</string>
-				<string>887CBBB8A5134F14874DFC09</string>
-				<string>8537C20BECB84EE983D7DF12</string>
-				<string>387DB1095C4F4F29A1B6A6FC</string>
-				<string>BDC4E904356344D581946396</string>
-				<string>BEEB42274BE0466CB34A75E6</string>
-				<string>EDF10C8554614FF1B860CC17</string>
-				<string>84C570E0074D4B72BEFC5B41</string>
-				<string>77A8FD1BEB6147699E11F6EF</string>
-				<string>01C018878D0E491990A44D55</string>
-				<string>11CECE2B471441568153632C</string>
-				<string>329839345CC54F5B9A9B82B7</string>
-				<string>634D70A6728E4A1F8C0C4707</string>
-				<string>C493B1A45C164DA0925EBEEE</string>
-				<string>57A30B85F52F4C54893794F7</string>
-				<string>8E7C69DAA3B341C1939B3123</string>
-				<string>4A896B64D4E84D9B9955018F</string>
-				<string>D7C82E7D9A514C6FB0238C56</string>
-				<string>7F27A11F9CE1463485F7DDAF</string>
-				<string>6BA169A682CE4D809673673A</string>
-				<string>B42BB437043C4507AE7FB802</string>
-				<string>FBBEBF6FCE6640DD900339A0</string>
-				<string>5EA8D8C209BA4EC1A6443FB4</string>
-				<string>B10C5BB0DA654CF0A3E12CBD</string>
-				<string>2E938C6C28474D7DB565C1F0</string>
-				<string>FA5CFF1561C544E88059302C</string>
-				<string>6C4466668A674E63990A2833</string>
-				<string>03BA91FEEC3644C5AD477945</string>
-				<string>D26AD5B723B14FA3A0E6C2D1</string>
-				<string>F0D73FF3D4714BBA8C7DCA9F</string>
-				<string>D5476179983B49828308C10E</string>
-				<string>9D679839978E4832BC9EE840</string>
-				<string>63C8AFB0555D4196BC08D912</string>
-				<string>FE17659BC7E2445B8843BE60</string>
-				<string>7306B51C88614C80827027C6</string>
-				<string>03173AEC03494E5095F5B005</string>
-				<string>8F84D58C398147ED82D15861</string>
-				<string>B34C2F1BF1464A288F5257B3</string>
-				<string>AAFEF5E7441A47A882909205</string>
-				<string>A7DF2BEB10354CB09588ABD8</string>
-				<string>895BBAE667644E4CB93687A6</string>
-				<string>3248B7D0E2244CC6966DFF34</string>
-				<string>EA8FD3C9F02B421B900AF512</string>
-				<string>E9E59D8EFF6D4F43A03AA1CF</string>
-				<string>34066496B5F74DAC9276ED3E</string>
-				<string>DA4CDC3044854002A03F3573</string>
-				<string>5E7047454BB142BF9E62391D</string>
-				<string>651799EEA13340B3B1B79AED</string>
-				<string>8796C0E79D6846829AE71421</string>
-				<string>1AACF237FBF0497B9F9B32AB</string>
-				<string>2B826D4BE5C342CB8DFB1719</string>
-				<string>4DF0ABB20B03460C83EF8833</string>
-				<string>8FF080E847C54E4AB7898D69</string>
-				<string>22C6EBE59E4D44E9971E5F86</string>
-				<string>7A69C2B52B944EEB90D2FA17</string>
-				<string>35337BCC88714A4A9428E7BF</string>
-				<string>44BA5697483D470C9C697AA9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Facebook-iOS-SDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6BA169A682CE4D809673673A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBErrorUtility.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBErrorUtility.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6C4466668A674E63990A2833</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphObjectPagingLoader.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphObjectPagingLoader.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6C9D446A694F4991BA82D955</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBDialog.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDialog.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6D3836CBF4F941A5A6F67DDC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B6318EECC939470B855F7B2E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6DFF88C5C5DA4F7789BD827D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBErrorUtility.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBErrorUtility.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6FE5C3C8DA634ACDA048C39C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Facebook.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/Facebook.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>70A8879F5AF04495B955072A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D556F9A6524B4775A75EAE00</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>70BD5E238FFD498EBF610FE3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBLoginView.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBLoginView.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>70F387D54C7E4DD1B035BA23</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BDC4E904356344D581946396</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7269099B6C4C4152A1CB32B9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBProfilePictureView.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBProfilePictureView.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7306B51C88614C80827027C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBLoginView.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBLoginView.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>748B2FFEEC7D4B1A94F642D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBFrictionlessRecipientCache.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFrictionlessRecipientCache.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>753F144394D847C9BF6AD235</key>
-		<dict>
-			<key>fileRef</key>
-			<string>795F60F00B4748D484DC58C5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>767816AF3D4F44DDACC0E024</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A239D95F97B245D397F59A9D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>767A8764BAAD4F67BEE5D61F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1EA3454FE594441EB8BD0417</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>77A3CCE8BC0D465C81F48BAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AAB1F4CBE85943BDA324B79E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>77A8FD1BEB6147699E11F6EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBAppLinkData.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAppLinkData.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>77DF039E7B5243A3BF369E3D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F8B2414B912A415C982F8D82</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>795F60F00B4748D484DC58C5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBError.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBError.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>797B3965903C4A199D176F0D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E5AC13F898745ABAD97F59E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>79941FEEF34F4AA385A07E1A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FBBEBF6FCE6640DD900339A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7A22623E94F44BB0ACDF8641</key>
+		<key>168C1FFF43204A988A102A33</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1943,30 +371,10 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>7A69C2B52B944EEB90D2FA17</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBViewController.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7EB2CF548868484AA6CF7DD6</key>
+		<key>16AC1BBFDC6F46F193AA8CF4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C493B1A45C164DA0925EBEEE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7EFABBC18CF944B3BB4ADDF0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6109C47E577422A87FBEF28</string>
+			<string>7A786AA70DA04D0E9940DA28</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1977,96 +385,56 @@
 				</array>
 			</dict>
 		</dict>
-		<key>7F27A11F9CE1463485F7DDAF</key>
+		<key>1730EC373DBE42E9BC71E91A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBError.m</string>
+			<string>FBDialogsParams.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBError.m</string>
+			<string>Facebook-iOS-SDK/src/FBDialogsParams.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>831F4730BCD1434D8F659D03</key>
+		<key>1747C85A09ED456E8510EF6F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBAppLinkData.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBAppLinkData.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>192A123EDB064FDB94AB0BB4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A7DF2BEB10354CB09588ABD8</string>
+			<string>DDDAB32BF10F452BBB6CD6BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>849A5296AD62458A9CA727F8</key>
+		<key>192B5ABCD7DF476A8C1314DB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBFrictionlessDialogSupportDelegate.h</string>
+			<string>FBFriendPickerViewController.h</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFrictionlessDialogSupportDelegate.h</string>
+			<string>Facebook-iOS-SDK/src/FBFriendPickerViewController.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>84C570E0074D4B72BEFC5B41</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBAppCall.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAppCall.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>850F2904848146699C965E2B</key>
+		<key>1BA2B306E4C5423B8A34E226</key>
 		<dict>
 			<key>fileRef</key>
-			<string>70BD5E238FFD498EBF610FE3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8537C20BECB84EE983D7DF12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>NSError+FBError.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/NSError+FBError.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>85608721918F46D6B87A53D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSDKVersion.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSDKVersion.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>864C0C67CEE54FC5A788A840</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A527C161FF8345E8865715CA</string>
+			<string>2ECB013CAD6240869F242D6E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2077,10 +445,30 @@
 				</array>
 			</dict>
 		</dict>
-		<key>86DB92BE5AF048999883DD5F</key>
+		<key>1BFB974D2FA64BEAA7FB729B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AFB17BB1B7FC425796061E16</string>
+			<string>04F04C129C9545ADBB02568A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1C11FD019FBE4BDFA7172C86</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBDialogsData+Internal.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBDialogsData+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>1CD38FFB2B4C4C74BD4EE3AD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B42437B215CE41EEBA612731</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2091,53 +479,27 @@
 				</array>
 			</dict>
 		</dict>
-		<key>8796C0E79D6846829AE71421</key>
+		<key>208419078D184C36A08D207A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBShareDialogParams.m</string>
+			<string>FBLoginView.h</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBShareDialogParams.m</string>
+			<string>Facebook-iOS-SDK/src/FBLoginView.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>887CBBB8A5134F14874DFC09</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBWebDialogs.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBWebDialogs.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>892D4319737F46189A514ECA</key>
+		<key>236F188595EC40578D5B2C23</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8F84D58C398147ED82D15861</string>
+			<string>46594B48F1F34760A2FB3206</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>895BBAE667644E4CB93687A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBRequest.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBRequest.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8A310707E5354AEAA3A1604C</key>
+		<key>23BABA02C1D14170AD3C3558</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2150,31 +512,23 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>8AAC98B507184532BEFDCD96</key>
+		<key>24729E18FACB45F694F286EC</key>
 		<dict>
-			<key>fileRef</key>
-			<string>8FF080E847C54E4AB7898D69</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBTestSession+Internal.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBTestSession+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>8B4AC22E3FD145688C36AE4F</key>
+		<key>25C5FB0A515C4B07ABAEF44C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EA8FD3C9F02B421B900AF512</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8B68A8D028314A7EB0F8F925</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E7C69DAA3B341C1939B3123</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8BF1C3D35F3941A5A2D55018</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D4E2BDEE1559465AAFF44F78</string>
+			<string>EC4C9963EF204BFFB833A119</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2185,171 +539,334 @@
 				</array>
 			</dict>
 		</dict>
-		<key>8C9A9D7980664781BC7D5C4F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSessionManualTokenCachingStrategy.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSessionManualTokenCachingStrategy.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8CBADB1D021645C3A6B15486</key>
+		<key>26AF7D2F591645549D3DA515</key>
 		<dict>
 			<key>fileRef</key>
-			<string>34066496B5F74DAC9276ED3E</string>
+			<string>5A0DF93E25FB4498B63566AE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>8E5AC13F898745ABAD97F59E</key>
+		<key>27E9F55BF8844492ABA3837E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBSession+Internal.h</string>
+			<string>FBRequestConnection.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSession+Internal.h</string>
+			<string>Facebook-iOS-SDK/src/FBRequestConnection.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>8E7C69DAA3B341C1939B3123</key>
+		<key>28A698E0558244E58B05F6F1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBDialogs.m</string>
+			<string>FBAccessTokenData.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDialogs.m</string>
+			<string>Facebook-iOS-SDK/src/FBAccessTokenData.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>8EB6F8AC813241C1BA435FD4</key>
+		<key>28B7511266DE4F76B6323AAF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBCacheIndex.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBCacheIndex.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>29AF85A6F1184DBD8E9AD0B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBCacheIndex.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBCacheIndex.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>2A14C24DA66A4C959CE3D3C4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5E7047454BB142BF9E62391D</string>
+			<string>98CBAF1CEEF14BDE9F41E4C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2B0B25611D6E4F429FFD7E74</key>
+		<dict>
+			<key>fileRef</key>
+			<string>15D8D0664C334B948DFE7283</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2B43FB743B3E4FF085E33428</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBAppCall+Internal.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBAppCall+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>2B9FA3D36D524D0895CC8EC6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods-prefix.pch</string>
+			<key>path</key>
+			<string>Pods-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>2C294ED55552448980FB3569</key>
+		<dict>
+			<key>fileRef</key>
+			<string>83955066278D4730813871C1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>8F101181C9944EB9839D4F25</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBDialogs.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDialogs.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8F84D58C398147ED82D15861</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBOpenGraphActionShareDialogParams.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBOpenGraphActionShareDialogParams.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8FF080E847C54E4AB7898D69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBUserSettingsViewController.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBUserSettingsViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9085635E73B4400F8AFE7A3A</key>
+		<key>2C6BD0B69E9A450FAA80F7CA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7A69C2B52B944EEB90D2FA17</string>
+			<string>74A5465CCB4F4BA0A7C43307</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>92A95EBCEA2D4BD2BB0FE123</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA5CFF1561C544E88059302C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9421F198785B40F3B56E4AA5</key>
+		<key>2D826ED25EDF4F8894ED644F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>6B7DE96C315E488697D7A89B</string>
+				<string>A5A79FB5B7C74BD5930E134C</string>
+				<string>5157102DF55B4DB98613923D</string>
+				<string>7D1908930AC24ABE9DD22AE0</string>
+				<string>0B09B867F610416F8C2A1360</string>
+				<string>99FF02EB77EA4CD3BB714A4C</string>
+				<string>698B6F914EC64A82A9A723BF</string>
+				<string>2B43FB743B3E4FF085E33428</string>
+				<string>15D8D0664C334B948DFE7283</string>
+				<string>B0D90F064C3F4C28846BBD7A</string>
+				<string>1747C85A09ED456E8510EF6F</string>
+				<string>A2AACCD5491B48F78BFBE91F</string>
+				<string>99BBFA49ACD04664AC80BC6E</string>
+				<string>28B7511266DE4F76B6323AAF</string>
+				<string>730BE2A0D9BB44AEA12D856C</string>
+				<string>806C040551B1499AAF3994CF</string>
+				<string>DBA1858C2AD64884B8F8F7BF</string>
+				<string>F355D625B247479DB5016A54</string>
+				<string>23BABA02C1D14170AD3C3558</string>
+				<string>98CBAF1CEEF14BDE9F41E4C0</string>
+				<string>1C11FD019FBE4BDFA7172C86</string>
+				<string>F6A357B895FA4B2A967651C6</string>
+				<string>3D679BC9C2BD4C709671AC25</string>
+				<string>92DCCC34DE5943D796798D4F</string>
+				<string>A3DAF998A75B45F593771703</string>
+				<string>8911D8FF8D434AE5BE2A91E0</string>
+				<string>AAD92C1E6EAF4943B65B76DD</string>
+				<string>3CF84428B58D469898315727</string>
+				<string>585DC0A4A2554329A8840032</string>
+				<string>D65E8523789F43B2BD990474</string>
+				<string>A0782E5C3E85436A94FD42C7</string>
+				<string>31B05B01BA3E4E269C391BFF</string>
+				<string>661C3ABFD99943C9AB8ABD89</string>
+				<string>192B5ABCD7DF476A8C1314DB</string>
+				<string>AED17AF1F1934082BAADEED9</string>
+				<string>D470861D26154E7FAF89689C</string>
+				<string>91D55F34D2594795BB521165</string>
+				<string>62FFC8E70CB04E70B0CB25F0</string>
+				<string>8A29B8E566B9436C80051144</string>
+				<string>BAF6DC4FE7FF4739B6144353</string>
+				<string>4F04A5A8FE884AE49D1BED5E</string>
+				<string>7F2B31FF16474FD4AA580F0C</string>
+				<string>EC4C9963EF204BFFB833A119</string>
+				<string>613816C2B9134DC79D1CB579</string>
+				<string>CA5FDC24B573468EA97F7132</string>
+				<string>69CED2DB19B348A0B4B05308</string>
+				<string>EEDCE2B6E0C143F981091413</string>
+				<string>208419078D184C36A08D207A</string>
+				<string>4C17694FBB824ACA935D685B</string>
+				<string>8779E42907134A0D94E0B049</string>
+				<string>B42437B215CE41EEBA612731</string>
+				<string>2ECB013CAD6240869F242D6E</string>
+				<string>7A786AA70DA04D0E9940DA28</string>
+				<string>97B3C5384E5047D98F37EEC5</string>
+				<string>3E237FBA90F449D7988C174B</string>
+				<string>C068F50B992D46EDA30C9D99</string>
+				<string>BCCAD460325A419985EB454D</string>
+				<string>7960AF1CD52944A1AB13DFDE</string>
+				<string>C179397294AF4D25B9681793</string>
+				<string>71847082797C440EBBFF0089</string>
+				<string>A967234C55CA41CA98436753</string>
+				<string>CF475E64EF3C424BB4032C17</string>
+				<string>E79B064D3DB449B5BFBAFE80</string>
+				<string>CBF8B1D654144B64B4178352</string>
+				<string>E4D0E28F37DA4C7FA8DBC1CE</string>
+				<string>0257D69514C1475F82F8ED48</string>
+				<string>12B3C0000CDE4ED6BF4E6F17</string>
+				<string>5678F1C4E28040F49EFDA796</string>
+				<string>CBA6C0B2A91C4762A3AC03BF</string>
+				<string>A0A47CF5C1AE449481702937</string>
+				<string>FC96B45B44D34CA487560E56</string>
+				<string>24729E18FACB45F694F286EC</string>
+				<string>FCF663AB0AB04F66BBFE1450</string>
+				<string>3CDCB2727E3F482698902EDA</string>
+				<string>2D87D6516E124B5082EAA363</string>
+				<string>EAC1807212B84276B2B5A352</string>
+				<string>EC8D722905BD415497529447</string>
+				<string>3422623A4AA24E8CB5400A2C</string>
+				<string>85D2E32F79AD4E62A36CFE1D</string>
+				<string>313F08E14DD344E6883830F8</string>
+				<string>E1FEEF55B9FB45BC96FE2938</string>
+				<string>28A698E0558244E58B05F6F1</string>
+				<string>AC2E75F1397442809A6F1D86</string>
+				<string>5D3289699D954EAA8C0CEDC6</string>
+				<string>A7549E8A52504BE48798935A</string>
+				<string>63E8D7B346AF487AA36D234C</string>
+				<string>7875B562A17C45A5BB6E2FB6</string>
+				<string>EE456F5A88BC44AD99985115</string>
+				<string>29AF85A6F1184DBD8E9AD0B5</string>
+				<string>9A2F0EDA5E384EB08232DE68</string>
+				<string>B8CF6AE4C1BF460A88B3A5FE</string>
+				<string>00D663BA5DBA4C7493102931</string>
+				<string>90F5AFB262314B87AC1AA623</string>
+				<string>05DD9DA8F4AC4FBCBAEA3ABA</string>
+				<string>1730EC373DBE42E9BC71E91A</string>
+				<string>F5F478A74ECE44E49B4BF65B</string>
+				<string>50B65BE4E7AC429B8E6343FB</string>
+				<string>D50E5DC4AC6F4DD3BAFDCEAA</string>
+				<string>8806FCF633B4443EAFC608B5</string>
+				<string>61A5A3E2938745D484EE7B24</string>
+				<string>03ACD5FD60AE45D4BB567122</string>
+				<string>8E0FD0B4DD114E0A853BD135</string>
+				<string>C328D1EFAB7A4BF4A03CFEA0</string>
+				<string>DDDAB32BF10F452BBB6CD6BC</string>
+				<string>5A0DF93E25FB4498B63566AE</string>
+				<string>BC54133532BF4711867BD738</string>
+				<string>66282F641E2E4C32AEA77D57</string>
+				<string>733BDED760CA4E7D8304AA27</string>
+				<string>856EC5F411DF4E18990BB918</string>
+				<string>6DCCDBD34490402D916ED84C</string>
+				<string>06FE600FC58C4158A7BF9655</string>
+				<string>74A5465CCB4F4BA0A7C43307</string>
+				<string>7AECAD2890B4457D9983B60E</string>
+				<string>9D6F0836F37B4E38AF1BCA25</string>
+				<string>699944A5A0AE4505B98C9872</string>
+				<string>FA91B390A9A147539A81FEDC</string>
+				<string>7B99AF13925B4478A39B03D7</string>
+				<string>526DDE9D5CF64218A32C3D5A</string>
+				<string>3C490B492AE94C6D9486AB53</string>
+				<string>27E9F55BF8844492ABA3837E</string>
+				<string>62E224CD1EBA4F7E8D0DA5A3</string>
+				<string>46594B48F1F34760A2FB3206</string>
+				<string>AF39F60CE9F5473BB9861099</string>
+				<string>35DD2206FA484746B918BC58</string>
+				<string>5D7C157550F44003BFA683F7</string>
+				<string>02F9E51CE10B4F9EAE60F38E</string>
+				<string>10AA7D18583645F49FA12B99</string>
+				<string>465B865339174D2FA81CC436</string>
+				<string>5EFA37D857CF410F9E69FDAD</string>
+				<string>F2405A378A8B4A298A485C12</string>
+				<string>DEFFC5CA5950481B8B331ED0</string>
+				<string>04F04C129C9545ADBB02568A</string>
+				<string>83955066278D4730813871C1</string>
+				<string>6932EC3D3C604A56A454CA4B</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods</string>
+			<string>Facebook-iOS-SDK</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>94320524869644389C0C26AB</key>
+		<key>2D87D6516E124B5082EAA363</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B5918CA6716B42A28E1EC7A5</string>
-				<string>AF71F1FC6907422FA45CE659</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>94CB974F72F1430A9B72BA2C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2C0949B288FF4A708E1D1043</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>95110FA9AADA4A97B0857F11</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3DA22FA3BB3D48AF88A6AA23</string>
-				<string>C03DC59927E74E1694FAE978</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Targets Support Files</string>
+			<string>FBUserSettingsViewController.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBUserSettingsViewController.h</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>959F15EFB40245B283BCC7C5</key>
+		<key>2ECB013CAD6240869F242D6E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBOpenGraphObject.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBOpenGraphObject.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>313F08E14DD344E6883830F8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>NSError+FBError.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/NSError+FBError.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>31B05B01BA3E4E269C391BFF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBFriendPickerCacheDescriptor.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBFriendPickerCacheDescriptor.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>328CCDA3A0E14546B4E3FBE4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EA4705285F2E4CFBA74A1EAF</string>
+			<string>CBA6C0B2A91C4762A3AC03BF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2360,7 +877,102 @@
 				</array>
 			</dict>
 		</dict>
-		<key>976E662F0D944E469F772552</key>
+		<key>3422623A4AA24E8CB5400A2C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBViewController.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBViewController.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>359012D149364A94B8EC6373</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C068F50B992D46EDA30C9D99</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>35B37DA5CA204631A89C5582</key>
+		<dict>
+			<key>fileRef</key>
+			<string>71847082797C440EBBFF0089</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>35DD2206FA484746B918BC58</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBSessionTokenCachingStrategy.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBSessionTokenCachingStrategy.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>367658C5DB284423A8835944</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8779E42907134A0D94E0B049</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>375C82C9A16F4090A336FBCD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>62FFC8E70CB04E70B0CB25F0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3C490B492AE94C6D9486AB53</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBRequestBody.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBRequestBody.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>3CDCB2727E3F482698902EDA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2373,10 +985,63 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>97D6F92783DB42998A18DCA2</key>
+		<key>3CF84428B58D469898315727</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBFetchedAppSettings.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBFetchedAppSettings.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>3D19DF918C5240629E74BB35</key>
 		<dict>
 			<key>fileRef</key>
-			<string>57C782E404684144BE291CED</string>
+			<string>61A5A3E2938745D484EE7B24</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3D679BC9C2BD4C709671AC25</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBDialogsParams+Internal.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBDialogsParams+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>3DD0850651884860A51C9E28</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9A2F0EDA5E384EB08232DE68</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3E237FBA90F449D7988C174B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBPlacePickerViewController.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBPlacePickerViewController.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>3E662022181D462A9CF88FCC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A0A47CF5C1AE449481702937</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2387,83 +1052,84 @@
 				</array>
 			</dict>
 		</dict>
-		<key>990F209861EB4F5A874AB819</key>
+		<key>41ADBEA8C9BD40AA973DD70F</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0450</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>4F04289A7E2E45D488022411</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-prefix.pch</string>
-			<key>path</key>
-			<string>Pods-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>5D014994171F48158E62DA86</string>
+			<key>productRefGroup</key>
+			<string>F7C52566084040BEAFECCE14</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>6677E2FEDC204F9E9A7C0652</string>
+			</array>
 		</dict>
-		<key>9AE2B06C0769424AA8CCF7EA</key>
+		<key>4264314815114859A8045012</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1AACF237FBF0497B9F9B32AB</string>
+			<string>3C490B492AE94C6D9486AB53</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9B0988CEE4AE44038A5DE715</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphUser.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphUser.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9B1BC166F5D0485CAAA827B0</key>
+		<key>45D4B6FEC09E4410949B431D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>57A30B85F52F4C54893794F7</string>
+			<string>CDA9F19FFA964DFDBA3F8E63</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9C7C35657B954698BBC2958E</key>
+		<key>46594B48F1F34760A2FB3206</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBErrorUtility+Internal.h</string>
+			<string>FBSessionInsightsState.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBErrorUtility+Internal.h</string>
+			<string>Facebook-iOS-SDK/src/FBSessionInsightsState.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>9D679839978E4832BC9EE840</key>
+		<key>465B865339174D2FA81CC436</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBLogger.m</string>
+			<string>FBTestSession.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBLogger.m</string>
+			<string>Facebook-iOS-SDK/src/FBTestSession.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>9ED15D05030B42778812AD1F</key>
+		<key>4715570449D14956AB1CA733</key>
 		<dict>
 			<key>fileRef</key>
-			<string>35337BCC88714A4A9428E7BF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9FE8379C18E442C19AC229B1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C3ACF75E1A0940CA83AB5441</string>
+			<string>FCF663AB0AB04F66BBFE1450</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2474,10 +1140,17 @@
 				</array>
 			</dict>
 		</dict>
-		<key>A1B5449D573E4D68BFA47CBA</key>
+		<key>47343ACE3AB941099885E722</key>
 		<dict>
 			<key>fileRef</key>
-			<string>578E30F47A534C35A67278D7</string>
+			<string>66282F641E2E4C32AEA77D57</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>482410317BC4489385F3D6CF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>661C3ABFD99943C9AB8ABD89</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2488,7 +1161,178 @@
 				</array>
 			</dict>
 		</dict>
-		<key>A239D95F97B245D397F59A9D</key>
+		<key>482A07F42D5240B1A50079AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>730BE2A0D9BB44AEA12D856C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>4AECBBC0E0BD41B089D80A2A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0257D69514C1475F82F8ED48</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>4C17694FBB824ACA935D685B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBNativeDialogs.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBNativeDialogs.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>4D6BDE7DBCEC4E20B3C6ED91</key>
+		<dict>
+			<key>fileRef</key>
+			<string>27E9F55BF8844492ABA3837E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4ECD0BA5F26A4A1D9E00649B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B268ECC49408437F93E5E915</string>
+				<string>2B9FA3D36D524D0895CC8EC6</string>
+				<string>168C1FFF43204A988A102A33</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4F04289A7E2E45D488022411</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9B337A79B5114B268153F67B</string>
+				<string>FDEBE39B7E4941DB992BE5E8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>4F04A5A8FE884AE49D1BED5E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphPlace.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphPlace.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>50B65BE4E7AC429B8E6343FB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBErrorUtility.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBErrorUtility.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>514B1956D47F4C0EA8446D27</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA5FDC24B573468EA97F7132</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5157102DF55B4DB98613923D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FacebookSDK.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FacebookSDK.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>520AAE6C95E74AF0B6CAC648</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5678F1C4E28040F49EFDA796</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>526DDE9D5CF64218A32C3D5A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBRequest.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBRequest.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>55EB30C1244349D3A04E27D2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3CDCB2727E3F482698902EDA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5678F1C4E28040F49EFDA796</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2501,17 +1345,30 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>A25520327DA24A7E9204AF6A</key>
+		<key>585DC0A4A2554329A8840032</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBFrictionlessDialogSupportDelegate.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBFrictionlessDialogSupportDelegate.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>5863910ADC7545CE8815A884</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B34C2F1BF1464A288F5257B3</string>
+			<string>28A698E0558244E58B05F6F1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A36EB3170D284D6CBF9E5736</key>
+		<key>58E52D8774EA4DC1951699FB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E022DB6B31634320AB944DF6</string>
+			<string>24729E18FACB45F694F286EC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2522,63 +1379,10 @@
 				</array>
 			</dict>
 		</dict>
-		<key>A527C161FF8345E8865715CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphObjectTableSelection.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphObjectTableSelection.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A6A37BB682174E72AC5E61B3</key>
+		<key>59FB70CE61194A928FE9DA0A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>44BA5697483D470C9C697AA9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A6EE512D9C9149208299A96D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSystemAccountStoreAdapter.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSystemAccountStoreAdapter.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A7DF2BEB10354CB09588ABD8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBProfilePictureView.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBProfilePictureView.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A82A28B8D9EB409393EAED4B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B42BB437043C4507AE7FB802</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A9152019198C4BA6B388DE78</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4961032CCE3747ECA4210C74</string>
+			<string>3CF84428B58D469898315727</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2589,85 +1393,23 @@
 				</array>
 			</dict>
 		</dict>
-		<key>A9626999E0A34920B39F0092</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F02C6A2001324C18BF8905C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AA5F5AB30EF247C1B2407922</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E14B75F3D06D4107A6A4EAE9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AA8FE8C778CD48B499D2CC17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F1F675D135A4EA3BE76F600</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>AAB1F4CBE85943BDA324B79E</key>
+		<key>5A0DF93E25FB4498B63566AE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBAccessTokenData+Internal.h</string>
+			<string>FBGraphObjectTableCell.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAccessTokenData+Internal.h</string>
+			<string>Facebook-iOS-SDK/src/FBGraphObjectTableCell.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>AAEF3652B0C042E5A110E485</key>
+		<key>5C09F9D9EB874551BB94FF17</key>
 		<dict>
 			<key>fileRef</key>
-			<string>03173AEC03494E5095F5B005</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AAFEF5E7441A47A882909205</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBPlacePickerViewController.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBPlacePickerViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>AC3BAEBDC85F4A6AA5C608F1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D648167BC5F4C1598303F10</string>
+			<string>D65E8523789F43B2BD990474</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2678,17 +1420,63 @@
 				</array>
 			</dict>
 		</dict>
-		<key>AC81F4AF434F43F59FAF5155</key>
+		<key>5D014994171F48158E62DA86</key>
 		<dict>
-			<key>fileRef</key>
-			<string>7F27A11F9CE1463485F7DDAF</string>
+			<key>children</key>
+			<array>
+				<string>F7C52566084040BEAFECCE14</string>
+				<string>09CC3929FEAD4F11BEF931F8</string>
+				<string>F3BFE0E4F5F94F649E4B2FCE</string>
+				<string>E0927A8AB4854F80B810701F</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ACF57D6590C045CFA4A371D4</key>
+		<key>5D3289699D954EAA8C0CEDC6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBAppBridgeTypeToJSONConverter.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBAppBridgeTypeToJSONConverter.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>5D7C157550F44003BFA683F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBSettings.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBSettings.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>5EFA37D857CF410F9E69FDAD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBURLConnection.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBURLConnection.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>60C1339A5B4047D3B67E2566</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9B0988CEE4AE44038A5DE715</string>
+			<string>1C11FD019FBE4BDFA7172C86</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2699,36 +1487,227 @@
 				</array>
 			</dict>
 		</dict>
-		<key>AD53D88E761F4A12A1754FDC</key>
+		<key>610ADE75CF6A496899898C30</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FC96B45B44D34CA487560E56</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>613816C2B9134DC79D1CB579</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBCrypto.h</string>
+			<string>FBInsights.h</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBCrypto.h</string>
+			<string>Facebook-iOS-SDK/src/FBInsights.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>AD5FD80156954BF59C91CC8F</key>
+		<key>61A5A3E2938745D484EE7B24</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBSession.h</string>
+			<string>FBFrictionlessRequestSettings.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSession.h</string>
+			<string>Facebook-iOS-SDK/src/FBFrictionlessRequestSettings.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>AF71F1FC6907422FA45CE659</key>
+		<key>62E224CD1EBA4F7E8D0DA5A3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBSession.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBSession.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>62FFC8E70CB04E70B0CB25F0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphObjectTableCell.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphObjectTableCell.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>63E8D7B346AF487AA36D234C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBAppLinkData.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBAppLinkData.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>65355D099BC3454BA89E640E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>698B6F914EC64A82A9A723BF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>65AF0D492A6244BAA1788FA2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>85D2E32F79AD4E62A36CFE1D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>65C6B8B3BC034304A1B6887A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1730EC373DBE42E9BC71E91A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>661C3ABFD99943C9AB8ABD89</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBFriendPickerViewController+Internal.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBFriendPickerViewController+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>66282F641E2E4C32AEA77D57</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphObjectTableSelection.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphObjectTableSelection.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>6677E2FEDC204F9E9A7C0652</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D3FC9D79153A453A9DF18E95</string>
+			<key>buildPhases</key>
+			<array>
+				<string>DBA94B7522DA4957986E78D5</string>
+				<string>AC94C17284424EEF9EDCBB0D</string>
+				<string>A19DEBC5944444D494234EC6</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>0866E6B580E045279D3C3253</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>6932EC3D3C604A56A454CA4B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>NSError+FBError.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/NSError+FBError.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>698B6F914EC64A82A9A723BF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBAppBridgeTypeToJSONConverter.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBAppBridgeTypeToJSONConverter.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>699944A5A0AE4505B98C9872</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBPlacePickerCacheDescriptor.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBPlacePickerCacheDescriptor.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>69CED2DB19B348A0B4B05308</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBLoginDialog.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBLoginDialog.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>6AD9A198C1814DF9ACCCE91D</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>7A22623E94F44BB0ACDF8641</string>
+			<string>168C1FFF43204A988A102A33</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -2775,23 +1754,71 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>AFB17BB1B7FC425796061E16</key>
+		<key>6B007CE134DB4295A4E49FD7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5D3289699D954EAA8C0CEDC6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6DA06B1AEE054C30A412DF55</key>
+		<dict>
+			<key>fileRef</key>
+			<string>06FE600FC58C4158A7BF9655</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6DCCDBD34490402D916ED84C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBLogger.h</string>
+			<string>FBLoginDialog.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBLogger.h</string>
+			<string>Facebook-iOS-SDK/src/FBLoginDialog.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>B0301F832C6D443DBA39B96B</key>
+		<key>6E7B13A83C9B4B59B391A7DD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>287E8DF0B669490D98805E99</string>
+			<string>D7021301D272417592853336</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>70F060F6B7DC46A2B35CB005</key>
+		<dict>
+			<key>fileRef</key>
+			<string>90F5AFB262314B87AC1AA623</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>70FE73A1B125451F97D6E361</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C328D1EFAB7A4BF4A03CFEA0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>71847082797C440EBBFF0089</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBRequestConnection.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBRequestConnection.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>71EBF0F7AE82419CBF9BD901</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BAF6DC4FE7FF4739B6144353</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2802,36 +1829,63 @@
 				</array>
 			</dict>
 		</dict>
-		<key>B0BD2F32FF9A4FD1B5B1D63A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphLocation.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphLocation.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B10C5BB0DA654CF0A3E12CBD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBFriendPickerCacheDescriptor.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFriendPickerCacheDescriptor.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B2432FEC372E427FA66A89E1</key>
+		<key>72A719F03BE54FBBA7629150</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A6EE512D9C9149208299A96D</string>
+			<string>733BDED760CA4E7D8304AA27</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>730BE2A0D9BB44AEA12D856C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBConnect.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBConnect.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>733BDED760CA4E7D8304AA27</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBInsights.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBInsights.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>740CE11950B64E968CE508F0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AC2E75F1397442809A6F1D86</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>74A5465CCB4F4BA0A7C43307</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBLoginView.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBLoginView.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>765BBAC86E954BDBB383520A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A3DAF998A75B45F593771703</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2842,50 +1896,23 @@
 				</array>
 			</dict>
 		</dict>
-		<key>B34C2F1BF1464A288F5257B3</key>
+		<key>7875B562A17C45A5BB6E2FB6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBPlacePickerCacheDescriptor.m</string>
+			<string>FBBase64.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBPlacePickerCacheDescriptor.m</string>
+			<string>Facebook-iOS-SDK/src/FBBase64.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>B386E0F2920449FC995F48B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8C9A9D7980664781BC7D5C4F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B42BB437043C4507AE7FB802</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBFetchedAppSettings.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFetchedAppSettings.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B5918CA6716B42A28E1EC7A5</key>
+		<key>7928C260203C46C096DC28C9</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>7A22623E94F44BB0ACDF8641</string>
+			<string>168C1FFF43204A988A102A33</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -2941,7 +1968,872 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>B60764519712481881255AFA</key>
+		<key>7960AF1CD52944A1AB13DFDE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBRequestBody.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBRequestBody.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>7A786AA70DA04D0E9940DA28</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBPlacePickerCacheDescriptor.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBPlacePickerCacheDescriptor.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>7AECAD2890B4457D9983B60E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBNativeDialogs.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBNativeDialogs.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>7B99AF13925B4478A39B03D7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBProfilePictureView.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBProfilePictureView.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>7D1908930AC24ABE9DD22AE0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBAccessTokenData+Internal.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBAccessTokenData+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>7D92C9E8C17342AB928F073A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BCCAD460325A419985EB454D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7E1EF430767248F0836171B5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E1FEEF55B9FB45BC96FE2938</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7EDABE1B9A4847ECA4DBBA89</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7D1908930AC24ABE9DD22AE0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7F2B31FF16474FD4AA580F0C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphUser.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphUser.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>7FA2717693C546D8958839B2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D50E5DC4AC6F4DD3BAFDCEAA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>806C040551B1499AAF3994CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBCrypto.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBCrypto.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>82BE32B0BDD34D119259E916</key>
+		<dict>
+			<key>fileRef</key>
+			<string>806C040551B1499AAF3994CF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>82FB0F4433CC4A419C479D69</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F2B31FF16474FD4AA580F0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>83955066278D4730813871C1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBWebDialogs.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBWebDialogs.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>856EC5F411DF4E18990BB918</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBLogger.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBLogger.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>85D2E32F79AD4E62A36CFE1D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBWebDialogs.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBWebDialogs.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>86D19DC7AC5D4BB3A7F66E1B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E237FBA90F449D7988C174B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>87250002597B42FAB5B250B5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>35DD2206FA484746B918BC58</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8779E42907134A0D94E0B049</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBOpenGraphAction.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBOpenGraphAction.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8806FCF633B4443EAFC608B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBFrictionlessRecipientCache.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBFrictionlessRecipientCache.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8911D8FF8D434AE5BE2A91E0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBErrorUtility+Internal.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBErrorUtility+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8A29B8E566B9436C80051144</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphObjectTableDataSource.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphObjectTableDataSource.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8A7F18E4930B42C3AE636F77</key>
+		<dict>
+			<key>fileRef</key>
+			<string>62E224CD1EBA4F7E8D0DA5A3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8CF56329FBAA4D718206E8D1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>03ACD5FD60AE45D4BB567122</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8E0FD0B4DD114E0A853BD135</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBFriendPickerViewController.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBFriendPickerViewController.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>90F5AFB262314B87AC1AA623</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBDialogs.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBDialogs.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>91D55F34D2594795BB521165</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphObjectPagingLoader.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphObjectPagingLoader.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>92DCCC34DE5943D796798D4F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBDialogsParams.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBDialogsParams.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>956AFE96724246A98A82108C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>69CED2DB19B348A0B4B05308</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>95D2751F91B24D078647E8B6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A0782E5C3E85436A94FD42C7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>97B3C5384E5047D98F37EEC5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBPlacePickerViewController+Internal.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBPlacePickerViewController+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>98CBAF1CEEF14BDE9F41E4C0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBDialogs.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBDialogs.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>99BBFA49ACD04664AC80BC6E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBCacheDescriptor.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBCacheDescriptor.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>99FF02EB77EA4CD3BB714A4C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBAppBridge.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBAppBridge.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>9A2F0EDA5E384EB08232DE68</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBCrypto.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBCrypto.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>9B337A79B5114B268153F67B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict/>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9C4AAFD90DD34909AAD53861</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AF39F60CE9F5473BB9861099</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9D6F0836F37B4E38AF1BCA25</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBOpenGraphActionShareDialogParams.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBOpenGraphActionShareDialogParams.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>9E35DF11F2404E3FBED24709</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B0D90F064C3F4C28846BBD7A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9F8C0458EB2C4B53B257D0C5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>12B3C0000CDE4ED6BF4E6F17</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9FCCDDFA6E9C44D08F26C35B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05DD9DA8F4AC4FBCBAEA3ABA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A0782E5C3E85436A94FD42C7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBFrictionlessRequestSettings.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBFrictionlessRequestSettings.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>A0A47CF5C1AE449481702937</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBShareDialogParams.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBShareDialogParams.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>A19DEBC5944444D494234EC6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6E7B13A83C9B4B59B391A7DD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A1A2672A2DC64505AB34E4BF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>585DC0A4A2554329A8840032</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A2AACCD5491B48F78BFBE91F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBBase64.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBBase64.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>A2E2C1373905442289E2D536</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B8CF6AE4C1BF460A88B3A5FE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A37C606A3B0B4FEA9EA9B450</key>
+		<dict>
+			<key>fileRef</key>
+			<string>526DDE9D5CF64218A32C3D5A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A3DAF998A75B45F593771703</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBError.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBError.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>A405BD1F62CE4FC6BF44243A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3422623A4AA24E8CB5400A2C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A5A79FB5B7C74BD5930E134C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Facebook.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/Facebook.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>A7549E8A52504BE48798935A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBAppCall.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBAppCall.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>A7F22D1B55A74F64988164C4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4F04A5A8FE884AE49D1BED5E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A967234C55CA41CA98436753</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBSDKVersion.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBSDKVersion.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>AAD92C1E6EAF4943B65B76DD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBErrorUtility.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBErrorUtility.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>AC2E75F1397442809A6F1D86</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBAppBridge.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBAppBridge.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>AC94C17284424EEF9EDCBB0D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>dstPath</key>
+			<string>$(PRODUCT_NAME)</string>
+			<key>dstSubfolderSpec</key>
+			<string>16</string>
+			<key>files</key>
+			<array>
+				<string>CCA787BF8A2C472B8F871C70</string>
+				<string>FB55C61285714282BA234022</string>
+				<string>7EDABE1B9A4847ECA4DBBA89</string>
+				<string>0C1F7AF968E24F639A2EB21C</string>
+				<string>CBC6DAC1C00C46FDBF384748</string>
+				<string>65355D099BC3454BA89E640E</string>
+				<string>F077F86AEB7E4AB99AB1390F</string>
+				<string>2B0B25611D6E4F429FFD7E74</string>
+				<string>9E35DF11F2404E3FBED24709</string>
+				<string>0475CE036F1341119E71EBDC</string>
+				<string>B72CB42EEAE6468183DA61B4</string>
+				<string>0272C50FCA7C4C85968830EC</string>
+				<string>03F7191108344BD7902B3F57</string>
+				<string>482A07F42D5240B1A50079AC</string>
+				<string>82BE32B0BDD34D119259E916</string>
+				<string>058850F07AAB4C74AA8BE314</string>
+				<string>D8662E3D5622486E8020CE05</string>
+				<string>FE7D60E7934F4CEEB7537495</string>
+				<string>2A14C24DA66A4C959CE3D3C4</string>
+				<string>60C1339A5B4047D3B67E2566</string>
+				<string>B13B8D009DA14135AC18E38B</string>
+				<string>CE091A64AA8C44CC8EEEDF20</string>
+				<string>BF616B16027946E6B10C64DC</string>
+				<string>765BBAC86E954BDBB383520A</string>
+				<string>C56C3A735B6A44ABA7742E7D</string>
+				<string>042D51C6FC0842B6BF57171E</string>
+				<string>59FB70CE61194A928FE9DA0A</string>
+				<string>A1A2672A2DC64505AB34E4BF</string>
+				<string>5C09F9D9EB874551BB94FF17</string>
+				<string>95D2751F91B24D078647E8B6</string>
+				<string>CD19A92097B44C9299F06074</string>
+				<string>482410317BC4489385F3D6CF</string>
+				<string>C9A9B889650D44E1B88151E1</string>
+				<string>B921AC01F646486CBBF9D39D</string>
+				<string>B4A49F27A74E40A396108208</string>
+				<string>AEEAE3D3571C4721B4FEE96C</string>
+				<string>375C82C9A16F4090A336FBCD</string>
+				<string>E76E647D74CC42A4B72ED61E</string>
+				<string>71EBF0F7AE82419CBF9BD901</string>
+				<string>A7F22D1B55A74F64988164C4</string>
+				<string>82FB0F4433CC4A419C479D69</string>
+				<string>25C5FB0A515C4B07ABAEF44C</string>
+				<string>F5FBFC8CE231406DA39A023E</string>
+				<string>514B1956D47F4C0EA8446D27</string>
+				<string>956AFE96724246A98A82108C</string>
+				<string>D31C43D8D4F7402BA4C48EFA</string>
+				<string>CCD19C2235C742BBAB09A4C9</string>
+				<string>BB7D33F1C8C540409C974617</string>
+				<string>367658C5DB284423A8835944</string>
+				<string>1CD38FFB2B4C4C74BD4EE3AD</string>
+				<string>1BA2B306E4C5423B8A34E226</string>
+				<string>16AC1BBFDC6F46F193AA8CF4</string>
+				<string>06FE505A7E2D4B5DB7588679</string>
+				<string>86D19DC7AC5D4BB3A7F66E1B</string>
+				<string>359012D149364A94B8EC6373</string>
+				<string>7D92C9E8C17342AB928F073A</string>
+				<string>D90F275EF30149958CB2AED7</string>
+				<string>FFBC0045781C46EF8E58DFD5</string>
+				<string>35B37DA5CA204631A89C5582</string>
+				<string>C0DC4EF0EB15424CA517E35D</string>
+				<string>BE9FD241329447DDBFA15E09</string>
+				<string>0908CB66E6A74E49B6D12159</string>
+				<string>D54AE1D5EEEE4D069655A51F</string>
+				<string>C74C0F3F462F4956BBAA19AA</string>
+				<string>4AECBBC0E0BD41B089D80A2A</string>
+				<string>9F8C0458EB2C4B53B257D0C5</string>
+				<string>520AAE6C95E74AF0B6CAC648</string>
+				<string>328CCDA3A0E14546B4E3FBE4</string>
+				<string>3E662022181D462A9CF88FCC</string>
+				<string>610ADE75CF6A496899898C30</string>
+				<string>58E52D8774EA4DC1951699FB</string>
+				<string>4715570449D14956AB1CA733</string>
+				<string>55EB30C1244349D3A04E27D2</string>
+				<string>D8649D8B28644AB8A2018041</string>
+				<string>1000206305794643A0FC99BE</string>
+				<string>CCBE40153B23499FB048A1FE</string>
+				<string>A405BD1F62CE4FC6BF44243A</string>
+				<string>65AF0D492A6244BAA1788FA2</string>
+				<string>F55925F529494B72AE6EDB4D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXCopyFilesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>AED17AF1F1934082BAADEED9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphLocation.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphLocation.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>AEE7B566F17445D7B5D8FE5D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A7549E8A52504BE48798935A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AEEAE3D3571C4721B4FEE96C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>91D55F34D2594795BB521165</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>AF39F60CE9F5473BB9861099</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBSessionManualTokenCachingStrategy.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBSessionManualTokenCachingStrategy.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>B0D90F064C3F4C28846BBD7A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBAppLinkData+Internal.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBAppLinkData+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>B13B8D009DA14135AC18E38B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F6A357B895FA4B2A967651C6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B18F20228D8B4D2DB12FF03C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>50B65BE4E7AC429B8E6343FB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B21153BA4E3C4B34B36DE879</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7AECAD2890B4457D9983B60E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B268ECC49408437F93E5E915</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2954,7 +2846,537 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>B6318EECC939470B855F7B2E</key>
+		<key>B42437B215CE41EEBA612731</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBOpenGraphActionShareDialogParams.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBOpenGraphActionShareDialogParams.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>B4A49F27A74E40A396108208</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D470861D26154E7FAF89689C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B72CB42EEAE6468183DA61B4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A2AACCD5491B48F78BFBE91F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B8CF6AE4C1BF460A88B3A5FE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBDataDiskCache.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBDataDiskCache.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>B921AC01F646486CBBF9D39D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AED17AF1F1934082BAADEED9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>BAF6DC4FE7FF4739B6144353</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphObjectTableSelection.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphObjectTableSelection.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>BB7D33F1C8C540409C974617</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4C17694FBB824ACA935D685B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>BC54133532BF4711867BD738</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphObjectTableDataSource.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphObjectTableDataSource.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>BCCAD460325A419985EB454D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBRequest.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBRequest.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>BE9FD241329447DDBFA15E09</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CF475E64EF3C424BB4032C17</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>BF616B16027946E6B10C64DC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>92DCCC34DE5943D796798D4F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C068F50B992D46EDA30C9D99</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBProfilePictureView.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBProfilePictureView.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C0DC4EF0EB15424CA517E35D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A967234C55CA41CA98436753</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C163B366695544E7BC909099</key>
+		<dict>
+			<key>fileRef</key>
+			<string>02F9E51CE10B4F9EAE60F38E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C179397294AF4D25B9681793</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBRequestConnection+Internal.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBRequestConnection+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C328D1EFAB7A4BF4A03CFEA0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphObject.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphObject.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C47203B979FB460AAD1CFBA0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9D6F0836F37B4E38AF1BCA25</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C56C3A735B6A44ABA7742E7D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8911D8FF8D434AE5BE2A91E0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C74C0F3F462F4956BBAA19AA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E4D0E28F37DA4C7FA8DBC1CE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C7E80AE1E388414A97C03B2C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7875B562A17C45A5BB6E2FB6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C9A9B889650D44E1B88151E1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>192B5ABCD7DF476A8C1314DB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CA5FDC24B573468EA97F7132</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBLogger.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBLogger.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>CBA6C0B2A91C4762A3AC03BF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBSettings.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBSettings.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>CBC6DAC1C00C46FDBF384748</key>
+		<dict>
+			<key>fileRef</key>
+			<string>99FF02EB77EA4CD3BB714A4C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CBF8B1D654144B64B4178352</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBSession.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBSession.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>CC3AA23B26A944F18887137B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>10AA7D18583645F49FA12B99</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CCA787BF8A2C472B8F871C70</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A5A79FB5B7C74BD5930E134C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CCBE40153B23499FB048A1FE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EC8D722905BD415497529447</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CCD19C2235C742BBAB09A4C9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>208419078D184C36A08D207A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CD19A92097B44C9299F06074</key>
+		<dict>
+			<key>fileRef</key>
+			<string>31B05B01BA3E4E269C391BFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CDA9F19FFA964DFDBA3F8E63</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>PodsDummy_Pods.m</string>
+			<key>path</key>
+			<string>PodsDummy_Pods.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>CDBED8B783854155B1BE7CCA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>00D663BA5DBA4C7493102931</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CE091A64AA8C44CC8EEEDF20</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3D679BC9C2BD4C709671AC25</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CF475E64EF3C424BB4032C17</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBSession+Internal.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBSession+Internal.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>D1A6FEC5F4974A93B70C189C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6932EC3D3C604A56A454CA4B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D2B050543ABD48E28BF34F39</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FA91B390A9A147539A81FEDC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D31C43D8D4F7402BA4C48EFA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EEDCE2B6E0C143F981091413</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D378A9C74C48420CA4475630</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F2405A378A8B4A298A485C12</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D3FC9D79153A453A9DF18E95</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>7928C260203C46C096DC28C9</string>
+				<string>6AD9A198C1814DF9ACCCE91D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D470861D26154E7FAF89689C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphObject.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphObject.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>D50E5DC4AC6F4DD3BAFDCEAA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBFetchedAppSettings.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBFetchedAppSettings.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>D54AE1D5EEEE4D069655A51F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CBF8B1D654144B64B4178352</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D65E8523789F43B2BD990474</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBFrictionlessRecipientCache.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBFrictionlessRecipientCache.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>D7021301D272417592853336</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2969,23 +3391,10 @@
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
 		</dict>
-		<key>B67DA8B41E684C25910A3E70</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSessionTokenCachingStrategy.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSessionTokenCachingStrategy.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BA1455D21ED74D3085714608</key>
+		<key>D8649D8B28644AB8A2018041</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BCA8C99B0D0A4C05B0059BEE</string>
+			<string>2D87D6516E124B5082EAA363</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2996,30 +3405,10 @@
 				</array>
 			</dict>
 		</dict>
-		<key>BBC87DF3D87C4D91BFF7C489</key>
+		<key>D8662E3D5622486E8020CE05</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6C4466668A674E63990A2833</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BCA8C99B0D0A4C05B0059BEE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBFriendPickerViewController.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFriendPickerViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BD14C0DAED944CB9BBC98B2C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AD5FD80156954BF59C91CC8F</string>
+			<string>F355D625B247479DB5016A54</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3030,23 +3419,17 @@
 				</array>
 			</dict>
 		</dict>
-		<key>BDC4E904356344D581946396</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBAccessTokenData.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAccessTokenData.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>BDEAF12EB50846B0859973AC</key>
+		<key>D867E58936B444649C0C0F39</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0032BD996AD540BAA0E6EAD6</string>
+			<string>465B865339174D2FA81CC436</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D90F275EF30149958CB2AED7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7960AF1CD52944A1AB13DFDE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3057,36 +3440,176 @@
 				</array>
 			</dict>
 		</dict>
-		<key>BEEB42274BE0466CB34A75E6</key>
+		<key>DBA1858C2AD64884B8F8F7BF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBAppBridge.m</string>
+			<string>FBDataDiskCache.h</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAppBridge.m</string>
+			<string>Facebook-iOS-SDK/src/FBDataDiskCache.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>BFF486E67EC1452BB8EB9C67</key>
+		<key>DBA94B7522DA4957986E78D5</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7E1EF430767248F0836171B5</string>
+				<string>5863910ADC7545CE8815A884</string>
+				<string>740CE11950B64E968CE508F0</string>
+				<string>6B007CE134DB4295A4E49FD7</string>
+				<string>AEE7B566F17445D7B5D8FE5D</string>
+				<string>0C32B209DE2C46B0B2331D37</string>
+				<string>C7E80AE1E388414A97C03B2C</string>
+				<string>04427EAB45F845E1B4C22E75</string>
+				<string>1449B103EA0E4F159393C68C</string>
+				<string>3DD0850651884860A51C9E28</string>
+				<string>A2E2C1373905442289E2D536</string>
+				<string>CDBED8B783854155B1BE7CCA</string>
+				<string>70F060F6B7DC46A2B35CB005</string>
+				<string>9FCCDDFA6E9C44D08F26C35B</string>
+				<string>65C6B8B3BC034304A1B6887A</string>
+				<string>FC228C7B5D5D48168C299E50</string>
+				<string>B18F20228D8B4D2DB12FF03C</string>
+				<string>7FA2717693C546D8958839B2</string>
+				<string>11F4341EE23B4E93931F6B8D</string>
+				<string>3D19DF918C5240629E74BB35</string>
+				<string>8CF56329FBAA4D718206E8D1</string>
+				<string>F34726938D0C4D92AD7717CD</string>
+				<string>70FE73A1B125451F97D6E361</string>
+				<string>192A123EDB064FDB94AB0BB4</string>
+				<string>26AF7D2F591645549D3DA515</string>
+				<string>12D3F4AF136C4A8C96966B1B</string>
+				<string>47343ACE3AB941099885E722</string>
+				<string>72A719F03BE54FBBA7629150</string>
+				<string>E1E7163355804D3EB155BD6C</string>
+				<string>DC3468E1E6354E95A9177644</string>
+				<string>6DA06B1AEE054C30A412DF55</string>
+				<string>2C6BD0B69E9A450FAA80F7CA</string>
+				<string>B21153BA4E3C4B34B36DE879</string>
+				<string>C47203B979FB460AAD1CFBA0</string>
+				<string>0E1B2D6946984645B935C2EB</string>
+				<string>D2B050543ABD48E28BF34F39</string>
+				<string>F7CF6315B0AF42F3B1EB1671</string>
+				<string>A37C606A3B0B4FEA9EA9B450</string>
+				<string>4264314815114859A8045012</string>
+				<string>4D6BDE7DBCEC4E20B3C6ED91</string>
+				<string>8A7F18E4930B42C3AE636F77</string>
+				<string>236F188595EC40578D5B2C23</string>
+				<string>9C4AAFD90DD34909AAD53861</string>
+				<string>87250002597B42FAB5B250B5</string>
+				<string>137614B4823F49A4A8E587AB</string>
+				<string>C163B366695544E7BC909099</string>
+				<string>CC3AA23B26A944F18887137B</string>
+				<string>D867E58936B444649C0C0F39</string>
+				<string>E3C6CF5CFDB846D09E4F8A78</string>
+				<string>D378A9C74C48420CA4475630</string>
+				<string>F9DC40773E8143768E1422B5</string>
+				<string>1BFB974D2FA64BEAA7FB729B</string>
+				<string>2C294ED55552448980FB3569</string>
+				<string>D1A6FEC5F4974A93B70C189C</string>
+				<string>45D4B6FEC09E4410949B431D</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBShareDialogParams.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBShareDialogParams.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>C0292C1CFFF24C6B9F1B7190</key>
+		<key>DC3468E1E6354E95A9177644</key>
 		<dict>
 			<key>fileRef</key>
-			<string>42E4B1F9CC054D1CBE2C12CF</string>
+			<string>6DCCDBD34490402D916ED84C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DDDAB32BF10F452BBB6CD6BC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBGraphObjectPagingLoader.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBGraphObjectPagingLoader.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>DEFFC5CA5950481B8B331ED0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBUtility.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBUtility.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>E0927A8AB4854F80B810701F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D7021301D272417592853336</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E1E7163355804D3EB155BD6C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>856EC5F411DF4E18990BB918</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E1FEEF55B9FB45BC96FE2938</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Facebook.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/Facebook.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>E3C6CF5CFDB846D09E4F8A78</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5EFA37D857CF410F9E69FDAD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E4D0E28F37DA4C7FA8DBC1CE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBSessionInsightsState.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBSessionInsightsState.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>E76E647D74CC42A4B72ED61E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8A29B8E566B9436C80051144</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3097,48 +3620,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>C03DC59927E74E1694FAE978</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>PodsDummy_Pods.m</string>
-			<key>path</key>
-			<string>PodsDummy_Pods.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C11FF66DE7424D8EBC03F07F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>748B2FFEEC7D4B1A94F642D0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C1438576B3FB4153B784F5C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>47C9449755AF431CA2BED44E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C1DC83EAB071464CA3FF4C17</key>
+		<key>E79B064D3DB449B5BFBAFE80</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3151,136 +3633,7 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>C1FAB74FB624426F90781B19</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBAppCall+Internal.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAppCall+Internal.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C219F0178A3E432F808AAB93</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B826D4BE5C342CB8DFB1719</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C2305A356F9D4ED79DEF216C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>63C8AFB0555D4196BC08D912</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C265CC0588DD46FC85246012</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>dstPath</key>
-			<string>$(PRODUCT_NAME)</string>
-			<key>dstSubfolderSpec</key>
-			<string>16</string>
-			<key>files</key>
-			<array>
-				<string>3C62B752301741A79F4CC193</string>
-				<string>CB9D3B4FA6394C678B0C4DA4</string>
-				<string>77A3CCE8BC0D465C81F48BAF</string>
-				<string>E6D92C2C33E04089825CE504</string>
-				<string>FE3AA429037348C5A9163907</string>
-				<string>223F5CA9220243A4B6D9E493</string>
-				<string>635337B38BCE486AB5252E05</string>
-				<string>AA5F5AB30EF247C1B2407922</string>
-				<string>70A8879F5AF04495B955072A</string>
-				<string>2A7F356E8B474DA58CD5ACA3</string>
-				<string>4A36972126D24CD1BB5925C3</string>
-				<string>1FCE23C7196F4587A14205EC</string>
-				<string>8BF1C3D35F3941A5A2D55018</string>
-				<string>C1438576B3FB4153B784F5C9</string>
-				<string>6824E502F4BD44CD89C7DFCC</string>
-				<string>62942DDDBA64437DB18D4E0C</string>
-				<string>2BF2F6C92D2F4F0AAC3781DF</string>
-				<string>2304972BA57448EF87B95307</string>
-				<string>4DED5469ECF041FB95CAC87C</string>
-				<string>154D626D9D1B417C9543B0EC</string>
-				<string>36DF9DD6B6C247D186576691</string>
-				<string>A36EB3170D284D6CBF9E5736</string>
-				<string>233F5680465842C9B7832D25</string>
-				<string>753F144394D847C9BF6AD235</string>
-				<string>D37C82C95F564EDD959518E4</string>
-				<string>EBC1BD49F118411E95C53BB1</string>
-				<string>A9626999E0A34920B39F0092</string>
-				<string>518587247D13483199C62564</string>
-				<string>C11FF66DE7424D8EBC03F07F</string>
-				<string>94CB974F72F1430A9B72BA2C</string>
-				<string>AA8FE8C778CD48B499D2CC17</string>
-				<string>EEE829A310DF48D6960B17D0</string>
-				<string>BA1455D21ED74D3085714608</string>
-				<string>31923C00E4EB44EF8E9CB6D4</string>
-				<string>10F1557ABC3B4A49947393E9</string>
-				<string>303D6386DBFD4ECB9F19BC95</string>
-				<string>B0301F832C6D443DBA39B96B</string>
-				<string>C0292C1CFFF24C6B9F1B7190</string>
-				<string>864C0C67CEE54FC5A788A840</string>
-				<string>767A8764BAAD4F67BEE5D61F</string>
-				<string>ACF57D6590C045CFA4A371D4</string>
-				<string>959F15EFB40245B283BCC7C5</string>
-				<string>446823F1512E4A5DA8C8D2DB</string>
-				<string>86DB92BE5AF048999883DD5F</string>
-				<string>AC3BAEBDC85F4A6AA5C608F1</string>
-				<string>1CF9FE2A2C14403E97016A55</string>
-				<string>850F2904848146699C965E2B</string>
-				<string>4B631C9B58BD497B875167DF</string>
-				<string>67C9F21573F740DBBD25CF35</string>
-				<string>3D465C718F204C8AA4116B96</string>
-				<string>18AC7010F6034AD7A3857D74</string>
-				<string>A1B5449D573E4D68BFA47CBA</string>
-				<string>04D3601F52504303AEF1F603</string>
-				<string>5DC8B0876C19433AAAC548D1</string>
-				<string>3AC420DBD8CE4CA88125730D</string>
-				<string>A9152019198C4BA6B388DE78</string>
-				<string>5C54904DEB914F359346F5D1</string>
-				<string>449996DAC52A4E2880DD0D97</string>
-				<string>7EFABBC18CF944B3BB4ADDF0</string>
-				<string>0ABCB56F6CFC4E7685644B94</string>
-				<string>797B3965903C4A199D176F0D</string>
-				<string>1008CCD5029546DCAB2BBB3D</string>
-				<string>BD14C0DAED944CB9BBC98B2C</string>
-				<string>CF91A52DC1224EFAB0FF0199</string>
-				<string>B386E0F2920449FC995F48B6</string>
-				<string>18F07033029B429DA9C4FE5C</string>
-				<string>767816AF3D4F44DDACC0E024</string>
-				<string>77DF039E7B5243A3BF369E3D</string>
-				<string>DEB68441C3624AC68B4EAEBD</string>
-				<string>B2432FEC372E427FA66A89E1</string>
-				<string>376DEEAFAB3D49E4953A186E</string>
-				<string>BDEAF12EB50846B0859973AC</string>
-				<string>5456755034304F8AB328B39E</string>
-				<string>97D6F92783DB42998A18DCA2</string>
-				<string>9FE8379C18E442C19AC229B1</string>
-				<string>14CDD2572AE7430CBD2A4D24</string>
-				<string>C918CAC64EE342FF9CC4D3A9</string>
-				<string>024B7333904E42C1AD9C4FA5</string>
-				<string>416FB193250F4D4A8B6704A6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C338D04C206B4BFDA11A8C81</key>
-		<dict>
-			<key>fileRef</key>
-			<string>11CECE2B471441568153632C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C3ACF75E1A0940CA83AB5441</key>
+		<key>EAC1807212B84276B2B5A352</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3293,391 +3646,7 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>C493B1A45C164DA0925EBEEE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBDataDiskCache.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDataDiskCache.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>C7482017F67B4C468C720898</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3248B7D0E2244CC6966DFF34</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C918CAC64EE342FF9CC4D3A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>53BEFEDCF6924B1DBFB63B76</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C9F5EE0947154D169483E280</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>525FE073FCE341BEA397509F</string>
-				<string>01C9C95E467A4FC3A6C9B69D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>CB9D3B4FA6394C678B0C4DA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0995093C4CED4A259989D2AB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CC7F1A1DC2374FA186A7E8D8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBOpenGraphAction.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBOpenGraphAction.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>CD35D421A6E1444D8BE78616</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C03DC59927E74E1694FAE978</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CF91A52DC1224EFAB0FF0199</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5CD42000DD74419AA4E0D512</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D26AD5B723B14FA3A0E6C2D1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphObjectTableDataSource.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphObjectTableDataSource.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D37C82C95F564EDD959518E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C7C35657B954698BBC2958E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D48A53DBFE2D410CA448B8AF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBRequestConnection+Internal.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBRequestConnection+Internal.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D4E2BDEE1559465AAFF44F78</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBCacheIndex.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBCacheIndex.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D5476179983B49828308C10E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBInsights.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBInsights.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D556F9A6524B4775A75EAE00</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBAppLinkData+Internal.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAppLinkData+Internal.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D5EC1E2759F54950A8734460</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D5476179983B49828308C10E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6109C47E577422A87FBEF28</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBRequestConnection.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBRequestConnection.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D6A83E8875BD4C979B8B2B47</key>
-		<dict>
-			<key>fileRef</key>
-			<string>01C018878D0E491990A44D55</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D72723971E924EAF8FA678B3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDF10C8554614FF1B860CC17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D7C82E7D9A514C6FB0238C56</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBDialogsParams.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDialogsParams.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DA4CDC3044854002A03F3573</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSessionManualTokenCachingStrategy.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSessionManualTokenCachingStrategy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DD997916A6DD4277AFE415E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBNativeDialogs.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBNativeDialogs.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DEB68441C3624AC68B4EAEBD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BFF486E67EC1452BB8EB9C67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E022DB6B31634320AB944DF6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBDialogsParams+Internal.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDialogsParams+Internal.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E14B75F3D06D4107A6A4EAE9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBAppCall.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAppCall.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E44EF9F2F604440FAA294DAC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>376AF3FB222944AF87AE98B0</string>
-				<string>9421F198785B40F3B56E4AA5</string>
-				<string>95110FA9AADA4A97B0857F11</string>
-				<string>6D3836CBF4F941A5A6F67DDC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E60C698FAF4F4E758BBFF6D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBRequestBody.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBRequestBody.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>E62F3A7391B04D0CA9E27FE8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7306B51C88614C80827027C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E6D92C2C33E04089825CE504</key>
-		<dict>
-			<key>fileRef</key>
-			<string>445F046F722046EABE698445</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E8543905B1CF4D299312E083</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6BA169A682CE4D809673673A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E8727834976C43EF8B8638E3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9E59D8EFF6D4F43A03AA1CF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E95F73E51CD240C7AFCF25F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D7C82E7D9A514C6FB0238C56</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9D68568833B4DFD8AF39B04</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BEEB42274BE0466CB34A75E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9E2C03D392F4F968F9A74FC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FE17659BC7E2445B8843BE60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E9E59D8EFF6D4F43A03AA1CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSession.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSession.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>EA4705285F2E4CFBA74A1EAF</key>
+		<key>EC4C9963EF204BFFB833A119</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3690,23 +3659,49 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>EA8FD3C9F02B421B900AF512</key>
+		<key>EC8D722905BD415497529447</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBRequestConnection.m</string>
+			<string>FBViewController+Internal.h</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBRequestConnection.m</string>
+			<string>Facebook-iOS-SDK/src/FBViewController+Internal.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>EBC1BD49F118411E95C53BB1</key>
+		<key>EE456F5A88BC44AD99985115</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBCacheDescriptor.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBCacheDescriptor.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>EEDCE2B6E0C143F981091413</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBLoginDialogParams.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBLoginDialogParams.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>F077F86AEB7E4AB99AB1390F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6DFF88C5C5DA4F7789BD827D</string>
+			<string>2B43FB743B3E4FF085E33428</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3717,228 +3712,233 @@
 				</array>
 			</dict>
 		</dict>
-		<key>EDF10C8554614FF1B860CC17</key>
+		<key>F2405A378A8B4A298A485C12</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBAppBridgeTypeToJSONConverter.m</string>
+			<string>FBUserSettingsViewController.m</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBAppBridgeTypeToJSONConverter.m</string>
+			<string>Facebook-iOS-SDK/src/FBUserSettingsViewController.m</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>EEE829A310DF48D6960B17D0</key>
+		<key>F34726938D0C4D92AD7717CD</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1941FC4CD2D24490A99D499B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EF8F2431D6A5401F8BC0E0D6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F0D73FF3D4714BBA8C7DCA9F</string>
+			<string>8E0FD0B4DD114E0A853BD135</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F02C6A2001324C18BF8905C4</key>
+		<key>F355D625B247479DB5016A54</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>FBFetchedAppSettings.h</string>
+			<string>FBDialog.h</string>
 			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFetchedAppSettings.h</string>
+			<string>Facebook-iOS-SDK/src/FBDialog.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>F0D73FF3D4714BBA8C7DCA9F</key>
+		<key>F3BFE0E4F5F94F649E4B2FCE</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphObjectTableSelection.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphObjectTableSelection.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F131EB4A425E44C392FE6017</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2E938C6C28474D7DB565C1F0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F781129CC0F84D53AD2FACA2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5EA8D8C209BA4EC1A6443FB4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F8A468567DE34AA291C569B5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBBase64.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBBase64.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F8B2414B912A415C982F8D82</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBSettings.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBSettings.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F8EBA40F7AF14200A44DB4F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBPlacePickerViewController.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBPlacePickerViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FA5CFF1561C544E88059302C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBGraphObject.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBGraphObject.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FAEB819BCE7249E7AC2E5DF3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBDialogsData+Internal.h</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBDialogsData+Internal.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FBBEBF6FCE6640DD900339A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBFrictionlessRecipientCache.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBFrictionlessRecipientCache.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FD321CC7093F415196FE1B70</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84C570E0074D4B72BEFC5B41</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FE17659BC7E2445B8843BE60</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FBLoginDialogParams.m</string>
-			<key>path</key>
-			<string>Facebook-iOS-SDK/src/FBLoginDialogParams.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FE3AA429037348C5A9163907</key>
-		<dict>
-			<key>fileRef</key>
-			<string>684F010C91384727A63F07CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FF74BE49DA4A4DF49E4B1E07</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>C9F5EE0947154D169483E280</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
+			<key>children</key>
 			<array>
-				<string>en</string>
+				<string>4ECD0BA5F26A4A1D9E00649B</string>
+				<string>CDA9F19FFA964DFDBA3F8E63</string>
 			</array>
-			<key>mainGroup</key>
-			<string>E44EF9F2F604440FAA294DAC</string>
-			<key>productRefGroup</key>
-			<string>376AF3FB222944AF87AE98B0</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F55925F529494B72AE6EDB4D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>313F08E14DD344E6883830F8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F5F478A74ECE44E49B4BF65B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBError.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBError.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>F5FBFC8CE231406DA39A023E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>613816C2B9134DC79D1CB579</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F6A357B895FA4B2A967651C6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBDialogsData.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBDialogsData.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>F7C52566084040BEAFECCE14</key>
+		<dict>
+			<key>children</key>
 			<array>
-				<string>1B5F035A6C644181A0B07F73</string>
+				<string>0866E6B580E045279D3C3253</string>
 			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F7CF6315B0AF42F3B1EB1671</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7B99AF13925B4478A39B03D7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F9DC40773E8143768E1422B5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DEFFC5CA5950481B8B331ED0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA91B390A9A147539A81FEDC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBPlacePickerViewController.m</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBPlacePickerViewController.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>FB55C61285714282BA234022</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5157102DF55B4DB98613923D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>FC228C7B5D5D48168C299E50</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F5F478A74ECE44E49B4BF65B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FC96B45B44D34CA487560E56</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBSystemAccountStoreAdapter.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBSystemAccountStoreAdapter.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>FCF663AB0AB04F66BBFE1450</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FBTestSession.h</string>
+			<key>path</key>
+			<string>Facebook-iOS-SDK/src/FBTestSession.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>FDEBE39B7E4941DB992BE5E8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict/>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>FE7D60E7934F4CEEB7537495</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23BABA02C1D14170AD3C3558</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>FFBC0045781C46EF8E58DFD5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C179397294AF4D25B9681793</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>FF74BE49DA4A4DF49E4B1E07</string>
+	<string>41ADBEA8C9BD40AA973DD70F</string>
 </dict>
 </plist>
