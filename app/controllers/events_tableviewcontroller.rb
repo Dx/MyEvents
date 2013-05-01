@@ -2,11 +2,19 @@ class EventsTableViewController < UITableViewController
   def viewDidLoad
     @events = []
 
+    bgLayer = Skin.greyGradient
+    bgView = UIView.alloc.initWithFrame(CGRectMake(0, 0, self.tableView.frame.size.width, self.tableView.frame.size.height))
+    bgLayer.frame = bgView.bounds;
+    bgView.layer.insertSublayer(bgLayer, atIndex:0);
+    view.backgroundView = bgView   
+
+    view.separatorStyle = UITableViewCellSeparatorStyleNone 
+
     searchBar = UISearchBar.alloc.initWithFrame(CGRectMake(0, 0, self.tableView.frame.size.width, 0))
     searchBar.delegate = self;
     searchBar.showsCancelButton = true;
     searchBar.sizeToFit
-    #view.tableFooterView = searchBar
+    #view.backgroundView = searchBar
     searchBar.text = 'search'
     searchBarSearchButtonClicked(searchBar)
 
@@ -23,7 +31,7 @@ class EventsTableViewController < UITableViewController
   def loadHeaderView
     headerView = UIView.alloc.initWithFrame(CGRectMake(0, 0, self.tableView.frame.size.width, 50))
     
-    lineView = UIView.alloc.initWithFrame(CGRectMake(35, 5, 1, 50))
+    lineView = UIView.alloc.initWithFrame(CGRectMake(35, 5, 1, 45))
     lineView.backgroundColor = UIColor.whiteColor
     headerView.addSubview(lineView)
 

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBGraphObjectTableCell.m \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBGraphObjectTableCell.h
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBGraphObjectTableCell.m \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBGraphObjectTableCell.h

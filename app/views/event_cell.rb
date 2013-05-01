@@ -1,6 +1,6 @@
 class EventCell < UITableViewCell
   CellID = 'CellIdentifier'
-  MessageFontSize = 14
+  MessageFontSize = 10
 
   def self.cellForEvent(event, inTableView:tableView)
   	p event.event_name
@@ -10,6 +10,15 @@ class EventCell < UITableViewCell
   end
 
   def fill_with_event(event, inTableView:tableView)
+    lineView = UIView.alloc.initWithFrame(CGRectMake(0, self.contentView.frame.size.height - 1.0, self.contentView.frame.size.width, 6))
+
+    lineView.backgroundColor = UIColor.darkGrayColor
+    self.contentView.addSubview(lineView)
+
+    self.contentView.backgroundColor = UIColor.whiteColor
+    self.textLabel.textColor = UIColor.blackColor
+    self.detailTextLabel.textColor = UIColor.grayColor
+
     self.textLabel.text = event.event_name
     self.detailTextLabel.text = event.initial_date.to_str + ' - ' + event.final_date.to_str
     

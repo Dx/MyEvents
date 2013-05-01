@@ -1,21 +1,21 @@
 dependencies: \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBInsights.m \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBInsights.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBSession.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBInsights+Internal.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBError.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBLogger.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBRequest.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBRequestConnection.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBGraphObject.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBOpenGraphObject.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBOpenGraphAction.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBSession+Internal.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBSystemAccountStoreAdapter.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBSessionInsightsState.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBSessionManualTokenCachingStrategy.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBSessionTokenCachingStrategy.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBAccessTokenData.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBSettings.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBUtility.h \
-  /Users/dequis1/Documents/Work/Palmera/FacbookConnectWithRubyMotion/vendor/Pods/Facebook-iOS-SDK/src/FBFetchedAppSettings.h
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBInsights.m \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBInsights.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSession.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBInsights+Internal.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBError.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBLogger.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBRequest.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBRequestConnection.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBGraphObject.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBOpenGraphObject.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBOpenGraphAction.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSession+Internal.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSystemAccountStoreAdapter.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSessionInsightsState.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSessionManualTokenCachingStrategy.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSessionTokenCachingStrategy.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBAccessTokenData.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBSettings.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBUtility.h \
+  /Users/sumiko/Projects/MyEvents/vendor/Pods/Facebook-iOS-SDK/src/FBFetchedAppSettings.h
