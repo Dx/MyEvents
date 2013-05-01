@@ -21,20 +21,41 @@ class Skin
   def self.roundButton
     uiRoundButton = UIButton.buttonWithType(UIButtonTypeCustom)
     uiRoundButton.clipsToBounds = true
-    uiRoundButton.layer.cornerRadius = 25
+    uiRoundButton.layer.cornerRadius = 20
     uiRoundButton.layer.borderColor = UIColor.grayColor.CGColor
     uiRoundButton.layer.borderWidth = 1.0
 
     uiRoundButton
   end
 
-  def self.userButton
-    uiRoundButton = UIButton.buttonWithType(UIButtonTypeCustom)
-    uiRoundButton.clipsToBounds = true
-    uiRoundButton.layer.cornerRadius = 40
-    uiRoundButton.layer.borderColor = UIColor.blackColor.CGColor
-    uiRoundButton.layer.borderWidth = 2.0
+  def self.searchButton
+    uiSearchButton = UIButton.buttonWithType(UIButtonTypeCustom)
+    uiSearchButton.clipsToBounds = true
+    uiSearchButton.layer.cornerRadius = 10
+    uiSearchButton.layer.borderColor = UIColor.grayColor.CGColor
+    uiSearchButton.layer.borderWidth = 1.0
 
-    uiRoundButton
+    uiSearchButton
+  end
+
+  def self.userButton
+    uiUserButton = UIButton.buttonWithType(UIButtonTypeCustom)
+    uiUserButton.clipsToBounds = true
+    uiUserButton.layer.cornerRadius = 40
+    uiUserButton.layer.borderColor = UIColor.whiteColor.CGColor
+    uiUserButton.layer.borderWidth = 2.0
+
+    uiUserButton
+  end
+
+  def self.labelRoundButton(textLabel)
+    uiLabelRoundButton = UILabel.new
+    uiLabelRoundButton.font = UIFont.systemFontOfSize(15)
+    uiLabelRoundButton.text = textLabel
+    uiLabelRoundButton.textAlignment = NSTextAlignmentLeft 
+    uiLabelRoundButton.textColor = UIColor.whiteColor
+    uiLabelRoundButton.backgroundColor = UIColor.clearColor
+
+    uiLabelRoundButton
   end
 end

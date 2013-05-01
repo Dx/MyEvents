@@ -1,20 +1,68 @@
 class EventsTableViewController < UITableViewController
   def viewDidLoad
     @events = []
+
     searchBar = UISearchBar.alloc.initWithFrame(CGRectMake(0, 0, self.tableView.frame.size.width, 0))
     searchBar.delegate = self;
     searchBar.showsCancelButton = true;
     searchBar.sizeToFit
-    view.tableHeaderView = searchBar
-    view.dataSource = view.delegate = self
-
+    #view.tableFooterView = searchBar
     searchBar.text = 'search'
     searchBarSearchButtonClicked(searchBar)
+
+    loadHeaderView
+
+    view.dataSource = view.delegate = self
 
     load_events
   end
 
   def searchBarSearchButtonClicked(searchBar)
+  end
+
+  def loadHeaderView
+    headerView = UIView.alloc.initWithFrame(CGRectMake(0, 0, self.tableView.frame.size.width, 50))
+    
+    lineView = UIView.alloc.initWithFrame(CGRectMake(35, 5, 1, 50))
+    lineView.backgroundColor = UIColor.whiteColor
+    headerView.addSubview(lineView)
+
+    bgLayer = Skin.greyGradient
+    bgLayer.frame = headerView.bounds;
+    headerView.layer.insertSublayer(bgLayer, atIndex:0);
+
+    imageView = Skin.roundButton
+    imageView.frame = [[15, 5],[40, 40]]
+    imageView.setImage(UIImage.imageNamed("profileImage.png"), forState:UIControlStateNormal)
+    headerView.addSubview(imageView)
+
+    labelView = Skin.labelRoundButton("Facebook")
+    labelView.frame = [[60, 7], [135, 30]]
+    headerView.addSubview(labelView)
+    view.tableHeaderView = headerView
+  end
+
+  def loadFooterView
+    footerView = UIView.alloc.initWithFrame(CGRectMake(0, 0, self.tableView.frame.size.width, 30))
+    
+    lineView = UIView.alloc.initWithFrame(CGRectMake(35, 0, 1, 20))
+    lineView.backgroundColor = UIColor.whiteColor
+    footerView.addSubview(lineView)
+
+    bgFooterLayer = Skin.greyGradient
+    bgFooterLayer.frame = footerView.bounds;
+    footerView.layer.insertSublayer(bgFooterLayer, atIndex:0);
+
+    searchView = Skin.searchButton
+    searchView.frame = [[26, 4],[20, 20]]
+    searchView.setImage(UIImage.imageNamed("button.png"), forState:UIControlStateNormal)
+    footerView.addSubview(searchView)
+
+    searchLabelView = Skin.labelRoundButton("Buscar Eventos")
+    searchLabelView.frame = [[52, 4], [220, 20]]
+    searchLabelView.font = UIFont.systemFontOfSize(8)
+    footerView.addSubview(searchLabelView)
+    view.tableFooterView = footerView
   end
 
   def load_events
@@ -39,6 +87,7 @@ class EventsTableViewController < UITableViewController
               self.view.reloadData
           end
         end
+        loadFooterView
       end
     end
   end
@@ -48,7 +97,9 @@ class EventsTableViewController < UITableViewController
   end
 
   def tableView(tableView, numberOfRowsInSection:section)
-    @events.size
+    if @events != nil
+      @events.size
+    end
   end
 
   def tableView(tableView, cellForRowAtIndexPath:indexPath)
