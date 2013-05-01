@@ -2,7 +2,11 @@ class LoginController < UIViewController
     
   def viewDidLoad
     self.title = "Facebook Connect"
-    self.view.backgroundColor = UIColor.whiteColor
+    #Background
+    bgLayer = Skin.greyGradient
+    bgLayer.frame = self.view.bounds;
+    self.view.layer.insertSublayer(bgLayer, atIndex:0);
+    
     view.addSubview(textLabel)    
     view.addSubview(authButton)
     NSNotificationCenter.defaultCenter.addObserver(self, selector: 'sessionStateChanged:', name: FBSessionStateChangedNotification, object: nil)
