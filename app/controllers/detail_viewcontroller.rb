@@ -4,8 +4,53 @@ class DetailViewController < UIViewController
     @event = event
   end
 
-  def viewDidLoad
+  def searchForUserEvent
+    url_string = "https://onessaweredisseseryounce:IiWpLORcxhNI6QmEsVCdeLU1@dequis.cloudant.com/events_users_schedule/#{@fb_user_name}_#{@event.event_id}"
 
+    p "url_string para buscar evento: #{url_string}"
+
+    error_ptr = Pointer.new(:object)
+    BW::HTTP.get(url_string) do |response|
+      parsed = BW::JSON.parse response.body.to_str
+
+      p response.body.to_str
+
+      if !parsed.nil?
+        @user_event = UserEvent.new(parsed)
+      end
+      reloadData
+    end
+  end
+
+  def reloadData
+    if @user_event.user_event_id.nil?
+      @interestButton.setOn(false)
+    else
+      @interestButton.setOn(true)
+      @switchButton.setEnabled(true)
+      p "El evento está scheduleado #{@user_event.is_scheduled}"
+      @switchButton.setOn(@user_event.is_scheduled)
+    end
+  end
+
+  def viewDidLoad
+    initializeUI
+    getUserName
+    
+  end
+
+  def getUserName
+      FBRequest.requestForMe.startWithCompletionHandler(lambda do |connection, user, error|
+        if error.nil?
+          @fb_user_name = "#{user[:username]}"
+          searchForUserEvent
+        else
+          @fb_user_name = ""
+        end
+      end)
+  end
+
+  def initializeUI
     self.view.backgroundColor = UIColor.whiteColor
 
     @event_name_label = UILabel.new
@@ -68,33 +113,52 @@ class DetailViewController < UIViewController
     @viewMapButton.addTarget(self, action: :viewMap, forControlEvents: UIControlEventTouchUpInside)
     self.view.addSubview(@viewMapButton)
 
-    @switchButton = UISwitch.alloc.initWithFrame([[180, 20], [40, 20]])
+    @saveButton = UIButton.buttonWithType(UIButtonTypeRoundedRect)
+    @saveButton.setTitle("Guardarrrr", forState: UIControlStateNormal);
+    @saveButton.frame = [[80, 320],[160, 50]]
+    @saveButton.addTarget(self, action: :saveUserEvent, forControlEvents: UIControlEventTouchUpInside)
+    self.view.addSubview(@saveButton)
+
+    @interestButton = UISwitch.alloc.initWithFrame([[180, 20], [40, 20]])
+    @interestButton.addTarget(self,action:'interestIsChanged', forControlEvents:UIControlEventValueChanged)
+    self.view.addSubview(@interestButton)
+
+    @switchButton = UISwitch.alloc.initWithFrame([[180, 60], [40, 20]])
     @switchButton.addTarget(self,action:'switchIsChanged', forControlEvents:UIControlEventValueChanged)
-    # @switchButton.setOn(false, animated:false)
+    @switchButton.setEnabled(false)
     self.view.addSubview(@switchButton)
   end
 
+  def interestIsChanged
+    if @interestButton.on?
+      @switchButton.setEnabled(true)
+    else
+      @switchButton.setEnabled(false)
+    end
+  end
+
   def switchIsChanged
-    if @switchButton.on?
-      FBRequest.requestForMe.startWithCompletionHandler(lambda do |connection, user, error|
-        if error.nil?
-          @fb_user_name = "#{user[:username]}"
-          @fb_name = "#{user[:name]}"
-          p "logged in"
-        else
-          p "not logged in"
-          p error.description
-        end
-      end)
 
-      p "UserName #{@fb_user_name}"
-      p "Name #{@fb_name}"
+  end
 
-      #Agendar evento
+  def saveUserEvent
+    if !@interestButton.on?
+      deleteUserEvent
+    else
+      createOrUpdateUserEvent      
+    end
+  end
+
+  def createOrUpdateUserEvent
+    if (@fb_user_name != '')
+      #Agendar eventStore
       url_string = "https://onessaweredisseseryounce:IiWpLORcxhNI6QmEsVCdeLU1@dequis.cloudant.com/events_users_schedule"
 
-      json_string = "{\"fb_user_name\":\"#{@fb_user_name}\", \"event_id\":\"#{@event.event_id}\", \"_id\":\"#{@fb_user_name}_#{@event.event_id}\"}"
-      # json_string = {fb_user_name:"#{@fb_user_name}", event_id:"#{@event.event_id}", _id:"#{@fb_username}_#{@event.event_id}"}
+      if @user_event._rev.nil?
+        json_string = "{\"FBUserName\":\"#{@fb_user_name}\", \"EventId\":\"#{@event.event_id}\", \"IsScheduled\":\"#{@switchButton.on?}\", \"AlertDate\":\"#{@alert_date}\", \"_id\":\"#{@fb_user_name}_#{@event.event_id}\"}"
+      else
+        json_string = "{\"FBUserName\":\"#{@fb_user_name}\", \"EventId\":\"#{@event.event_id}\", \"IsScheduled\":\"#{@switchButton.on?}\", \"AlertDate\":\"#{@alert_date}\", \"_id\":\"#{@fb_user_name}_#{@event.event_id}\", \"_rev\":\"#{@user_event._rev}\"}"
+      end
 
       p "json_string #{json_string}"
 
@@ -103,10 +167,29 @@ class DetailViewController < UIViewController
             :headers => {'Content-Type' => 'application/json'}
             }) do |response|      
         p response.to_s
+
+        searchForUserEvent
       end
-    else
-     #Desagendar evento
     end
+  end
+
+  def deleteUserEvent
+    if @user_event._rev == ""
+      url_string = "https://onessaweredisseseryounce:IiWpLORcxhNI6QmEsVCdeLU1@dequis.cloudant.com/crud/#{@fb_user_name}_#{@event.event_id}\?rev\=#{@user_event._rev}"
+
+      p url_string
+
+      BW::HTTP.delete(url_string) do response
+        p "Eliminado #{response}"
+      end
+    end
+  end
+
+  def viewWillDisappear(animated)
+    # if self.navigationController.viewControllers.indexOfObject(self) == NSNotFound
+    #   saveUserEvent
+    # end
+    # super.viewWillDisappear(animated)
   end
 
   def viewMap
