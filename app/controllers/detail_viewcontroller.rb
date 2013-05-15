@@ -119,11 +119,29 @@ class DetailViewController < UIViewController
     @saveButton.addTarget(self, action: :saveUserEvent, forControlEvents: UIControlEventTouchUpInside)
     self.view.addSubview(@saveButton)
 
-    @interestButton = UISwitch.alloc.initWithFrame([[180, 20], [40, 20]])
+    @interest_label = UILabel.new
+    @interest_label.font = UIFont.systemFontOfSize(10)
+    @interest_label.text = "Me interesa"
+    @interest_label.textAlignment = UITextAlignmentCenter 
+    @interest_label.textColor = UIColor.blackColor
+    @interest_label.backgroundColor = UIColor.clearColor
+    @interest_label.frame = [[150, 10], [150, 30]]
+    self.view.addSubview(@interest_label)
+
+    @interestButton = UISwitch.alloc.initWithFrame([[180, 35], [40, 20]])
     @interestButton.addTarget(self,action:'interestIsChanged', forControlEvents:UIControlEventValueChanged)
     self.view.addSubview(@interestButton)
 
-    @switchButton = UISwitch.alloc.initWithFrame([[180, 60], [40, 20]])
+    @going_label = UILabel.new
+    @going_label.font = UIFont.systemFontOfSize(10)
+    @going_label.text = "Voy a ir"
+    @going_label.textAlignment = UITextAlignmentCenter 
+    @going_label.textColor = UIColor.blackColor
+    @going_label.backgroundColor = UIColor.clearColor
+    @going_label.frame = [[150, 60], [150, 30]]
+    self.view.addSubview(@going_label)
+
+    @switchButton = UISwitch.alloc.initWithFrame([[180, 85], [40, 20]])
     @switchButton.addTarget(self,action:'switchIsChanged', forControlEvents:UIControlEventValueChanged)
     @switchButton.setEnabled(false)
     self.view.addSubview(@switchButton)
